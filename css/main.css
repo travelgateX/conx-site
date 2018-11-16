@@ -1178,10 +1178,8 @@ input::-moz-focus-inner {
 .info-intro, .speakers-wrapp, .location-wrapp, .home-copyright, .info-reasons, .clients-logo, .also-info{
   margin-top: 5em;
 }
-.customer-logos{
+.clients-logo{
   margin-bottom: 2em;
-  padding: 1em 0;
-  background: rgba(255, 255, 255, 0.3);
 }
 
 /* -------------------------------------------------------------------

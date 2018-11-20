@@ -24,9 +24,12 @@
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
+<<<<<<< HEAD
 	*{
 		font-family: 'Roboto', sans-serif;
 	}
+=======
+>>>>>>> new web theme
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, select{
 		margin: 0;
 		padding: 0;
@@ -53,11 +56,19 @@
 /* #Basic Styles
 ================================================== */
 	body {
+<<<<<<< HEAD
 		background: #fff;
 		font-family: 'Roboto', sans-serif;
 		font-size: 14px;
 		line-height:22px;
 		color:#404040;
+=======
+		background: #323232;
+		font-family: 'OpenSans-Light-webfont';
+		font-size: 14px;
+		line-height:22px;
+		color:#a6a6a6;
+>>>>>>> new web theme
 		overflow-x:hidden;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
@@ -71,8 +82,13 @@
 /* #Typography
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
+<<<<<<< HEAD
 		color: #101010;
 		font-family: 'Roboto', sans-serif;
+=======
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
+>>>>>>> new web theme
 		text-align:center;
 	}
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }

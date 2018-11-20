@@ -1402,10 +1402,10 @@ div#sep::after, div#sep1::after  {
 	margin: 0 auto;
 	width: 100%;
 	overflow: hidden;
-	padding-bottom: 170px;
+	padding-bottom: 70px;
 }
 #sep1 p{
-	font-size: 26px;
+	font-size: 18px;
 	font-weight: 200;
 	padding-bottom: 16px;
 }

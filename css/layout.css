@@ -1114,7 +1114,8 @@ div#about:after {
 	padding-bottom: 25px;
 }
 #about p{
-	text-align: center;
+	text-align: left;
+	text-transform: none;
 }
 
 h1 span:before {
@@ -1229,6 +1230,7 @@ path.stroke-thin {
 
 #team img {
 	width: 100%;
+	filter: grayscale(1);
 	height: auto;
 	display: block;
 	margin: 0 auto;
@@ -1408,6 +1410,20 @@ div#sep::after, div#sep1::after  {
 	font-size: 18px;
 	font-weight: 200;
 	padding-bottom: 16px;
+	text-align: left;
+}
+#sep1 .best-for{
+	display: flex;
+    flex-wrap: wrap;
+}
+#sep1 .best-for li{
+	background-color: #959595;
+    padding: 0.5em;
+    margin: 0.1em;
+    font-size: 18px;
+    white-space: nowrap;
+    border-radius: 6px;
+    font-weight: 200;
 }
 
 .z-index {
@@ -1536,6 +1552,8 @@ div#sep::after, div#sep1::after  {
 .facts-wrap p{
 	font-size: 18px;
 	margin-bottom: 1em;
+	text-align: left;
+	font-weight: 200;
 }
 
 .facts-wrap h6 {
@@ -1746,7 +1764,7 @@ div#sep::after, div#sep1::after  {
 
 .contact-wrap p {
 	padding-bottom: 30px;
-	text-align: center;
+	text-align: left;
 	color: #fff;
 	opacity: .8;
 }
@@ -1754,9 +1772,8 @@ div#sep::after, div#sep1::after  {
 .contact-wrap p span {
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
-	font-size: 20px;
+	font-size: 16px;
 	line-height: 20px;
-	text-transform: uppercase;
 	padding-right: 10px;
 	font-weight: 800;
 }

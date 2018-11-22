@@ -3396,3 +3396,11 @@ iframe {
 	font-weight: normal;
 	font-style: normal;
 }
+
+/* PEDRO
+================================================== */
+
+.grayout {
+    opacity: 0.6; /* Real browsers */
+    filter: alpha(opacity = 60); /* MSIE */
+}

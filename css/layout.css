@@ -1742,7 +1742,7 @@ div#sep1::after {
 	text-transform: uppercase;
 }
 
-#contact {
+#faq {
 	position: relative;
 	margin: 0 auto;
 	width: 100%;
@@ -1750,7 +1750,7 @@ div#sep1::after {
 	padding-top: 100px;
 }
 
-#contact .container {
+#faq .container {
 	padding-bottom: 5em;
 }
 
@@ -1788,7 +1788,7 @@ div#sep1::after {
 	}
 }
 
-.contact-wrap {
+.faq-wrap {
 	position: relative;
 	margin: 0 auto;
 	overflow: hidden;
@@ -1799,20 +1799,20 @@ div#sep1::after {
 	background: rgba(24, 41, 69, 0.7);
 }
 
-.contact-wrap h6 {
+.faq-wrap h6 {
 	padding-bottom: 25px;
 	text-align: center;
 	color: #fff;
 }
 
-.contact-wrap p {
+.faq-wrap p {
 	padding-bottom: 30px;
 	text-align: left;
 	color: #fff;
 	opacity: .8;
 }
 
-.contact-wrap p span {
+.faq-wrap p span {
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
 	font-size: 16px;
@@ -1830,7 +1830,7 @@ div#sep1::after {
 	padding-right: 10px;
 }
 
-.contact-wrap p:last-child {
+.faq-wrap p:last-child {
 	padding-bottom: 0;
 }
 
@@ -2165,7 +2165,7 @@ textarea {
 	width: 100%;
 	background: #FFF;
 	overflow: hidden;
-	padding-top: 50px;
+	padding: 50px 0;
 	z-index: 2;
 }
 

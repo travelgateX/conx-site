@@ -1215,7 +1215,18 @@ path.stroke-thin {
 	stroke-width: 1;
 }
 
+/* Google form */
 
+#google-form{
+	background-color: #FFF;
+}
+#google-form h1{
+	margin: 2em 0;
+	color: #182945;
+}
+#google-form iframe{
+	height: 1200px;
+}
 
 /* #The team
 ================================================== */
@@ -3536,3 +3547,44 @@ iframe {
 	filter: alpha(opacity=60);
 	/* MSIE */
 }
+
+/* SLACK WIDGET */
+
+.slack-widget a{
+	padding: 0;
+    position: relative;
+    bottom: -7px;
+}
+
+/* STRIPE */
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+ #payment-form{
+	 padding: 1em 0
+ }
+ #payment-form label{
+	 color: #182945;
+ }
+ .StripeElement {
+	background-color: white;
+	padding: 15px 12px;
+	border-radius: 4px;
+	border: 1px solid transparent;
+	box-shadow: 0 1px 3px 0 #e6ebf1;
+	-webkit-transition: box-shadow 150ms ease;
+	transition: box-shadow 150ms ease;
+  }
+  
+  .StripeElement--focus {
+	box-shadow: 0 1px 3px 0 #cfd7df;
+  }
+  
+  .StripeElement--invalid {
+	border-color: #fa755a;
+  }
+  
+  .StripeElement--webkit-autofill {
+	background-color: #fefde5 !important;
+  }

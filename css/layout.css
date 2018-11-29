@@ -461,7 +461,7 @@ body.royal_loader {
 	width: 116px;
 	height: 60px;
 	background: url(https://www.travelgatex.com/assets/img/logo_travelgatex_claim_white.svg) no-repeat center center;
-	background-size: 116px 60px;
+	background-size: 116px 30px;
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
 	-o-transition: all 0.5s ease-out;
@@ -514,7 +514,7 @@ ul.slimmenu li ul {
 	left: 10px;
 	top: 10px;
 	background: url(https://www.travelgatex.com/assets/img/logo_travelgatex_claim_white.svg) no-repeat center center;
-	background-size: 170px 85px;
+	background-size: 170px 40px;
 }
 
 

@@ -517,6 +517,7 @@ h1 span:after  {
 		font-size: 0.8rem;
 		font-weight: 300;
 		letter-spacing: 1px;
+		line-height: 20px;
 		margin: 0;
 		text-transform: uppercase;
 	}
@@ -554,3 +555,4 @@ h1 span:after  {
 		opacity: 1;
 		-webkit-transition-delay: 0.1s;
 		transition-delay: 0.1s;
+	}

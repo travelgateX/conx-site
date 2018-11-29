@@ -1427,6 +1427,7 @@ path.stroke-thin {
 
 #accomodation .container img {
 	width: 300px;
+	padding: 1em;
 }
 
 #accomodation .container img:hover {

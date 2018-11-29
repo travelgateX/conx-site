@@ -3427,6 +3427,10 @@ iframe {
 	#footer .foot-links ul {
 		flex-direction: column;
 	}
+	.logos-coming .two.columns{
+		width: 130px !important;
+		margin: 0 0.5em !important;
+	}
 }
 
 @media only screen and (max-width: 319px) {
@@ -3518,6 +3522,10 @@ iframe {
 	#footer .foot-links ul {
 		flex-direction: column;
 	}
+	.logos-coming .two.columns{
+		width: 130px !important;
+		margin: 0 0.5em !important;
+	}
 }
 
 
@@ -3551,9 +3559,22 @@ iframe {
 /* SLACK WIDGET */
 
 .slack-widget a{
-	padding: 0;
+    padding-top: 3px !important;
+    bottom: -6px;
     position: relative;
-    bottom: -7px;
+}
+
+/* LOGOS COMING */
+
+.logos-coming h6{
+	margin-bottom: 2em;
+}
+.logos-coming .two.columns{
+	margin-top: 0;
+	width: 95px;
+}
+.logos-coming .two.columns img{
+	width: 100%;
 }
 
 /* STRIPE */

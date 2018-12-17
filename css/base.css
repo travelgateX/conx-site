@@ -556,3 +556,23 @@ h1 span:after  {
 		-webkit-transition-delay: 0.1s;
 		transition-delay: 0.1s;
 	}
+	/* REGISTER BUTTON */
+	#pricing .container{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	#pricing .container .register{
+		width: 50%;
+		display: block;
+		text-align: center;
+		padding: 1em;
+		color: #FFF;
+		background-color: #009df5;
+	}
+	#pricing .container .register:hover{
+		transition: 0.2s all linear;
+		background-color: #0562CE !important;
+		text-decoration: none;
+	}

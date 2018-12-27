@@ -50,7 +50,7 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background: #0562CE;
+		background: #182945;
 		font-family: 'Roboto', sans-serif;
 		font-size: 14px;
 		line-height:22px;
@@ -287,6 +287,10 @@ h1 span:after  {
 	color:#009DF6;
 }
 /* HOVER SPEAKERS */
+.speakers{
+	margin-top: 5em !important;
+	margin-bottom: 3em !important;
+}
 .snip1563 {
 	background-color: #fff;
 	color: #ffffff;

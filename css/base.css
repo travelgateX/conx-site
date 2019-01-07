@@ -50,7 +50,7 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background: #0562CE;
+		background: #182945;
 		font-family: 'Roboto', sans-serif;
 		font-size: 14px;
 		line-height:22px;
@@ -259,6 +259,21 @@ h1 span:after  {
 .icon-right1{
 	color:#009DF6;
 }
+.services-offer form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.services-offer form .buy_ticket{
+	margin: 0;
+	margin-top: 2em;
+	background-color: #009DF6;
+	font-weight:bold;
+}
+.services-offer form .buy_ticket:hover{
+	color: #FFF;
+	background-color: #00659e;
+}
 .services-offer .services-icon{
 	color:#FFF;
 }
@@ -287,6 +302,10 @@ h1 span:after  {
 	color:#009DF6;
 }
 /* HOVER SPEAKERS */
+.speakers{
+	margin-top: 5em !important;
+	margin-bottom: 3em !important;
+}
 .snip1563 {
 	background-color: #fff;
 	color: #ffffff;
@@ -557,12 +576,6 @@ h1 span:after  {
 		transition-delay: 0.1s;
 	}
 	/* REGISTER BUTTON */
-	#pricing .container{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
 	#pricing .container .register{
 		width: 50%;
 		display: block;

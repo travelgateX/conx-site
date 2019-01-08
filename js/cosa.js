@@ -8,7 +8,6 @@ function initCarousel(){
     var mouseY = 0;
     var mouseZ = 0;
     var addX = 0;
-    console.log('hola');
     
     
     // fps counter created by: https://gist.github.com/sharkbrainguy/1156092,
@@ -72,7 +71,6 @@ function initCarousel(){
     
     function animateIn( $item, $block )
     {
-        console.log('hola1');
         
         var $nrX = 360 * getRandomInt(2);
         var $nrY = 360 * getRandomInt(2);
@@ -98,11 +96,6 @@ function initCarousel(){
         mouseX = -(-(window.innerWidth * .5) + event.pageX) * (!!init ? 0 : .0025);
         mouseY = -(-(window.innerHeight * .5) + event.pageY - positionY) * .01 * 0.1;
         mouseZ = -(radius) - (Math.abs(-(window.innerHeight * .5) + event.pageY) - 200) * 0.1;
-        console.log('Este es el Z');
-        console.log(event.mouseZ); 
-        console.log('Este es el Y');
-        console.log(event.pageY);
-        console.log(positionY);
          
     }
     

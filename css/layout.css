@@ -1231,6 +1231,10 @@ path.stroke-thin {
 /* #The team
 ================================================== */
 
+.moderator{
+	margin-top: 4em !important;
+}
+
 #team {
 	position: relative;
 	margin: 0 auto;
@@ -1250,7 +1254,10 @@ path.stroke-thin {
 
 #team h6 {
 	text-align: center;
-	padding-bottom: 25px;
+}
+#team p{
+	text-align: center;
+	padding: 10px 0;
 }
 
 #team img {

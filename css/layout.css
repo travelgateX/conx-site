@@ -1475,7 +1475,7 @@ path.stroke-thin {
 
 #accomodation .acco-wrapp .acco-container .acco-hotel{
 	width: 100%;
-	height: 520px;
+	height: 550px;
 	position: relative;
 }
 
@@ -1489,7 +1489,7 @@ path.stroke-thin {
 	background-color: rgba(24, 41, 69, 0.8);
 	position: relative;
 	z-index: 2;
-	height: 470px;
+	height: 500px;
 }
 #accomodation .acco-wrapp .acco-container .acco-hotel .acco-info:hover{
 	transform: scale(1.1);
@@ -1526,7 +1526,7 @@ path.stroke-thin {
 }
 #accomodation .acco-wrapp .acco-container .acco-hotel .acco-info .acco-accom .accom-code{
 	text-align: center;
-	font-size: 18px;
+	font-size: 16px;
 }
 #accomodation .acco-wrapp .acco-container .acco-hotel .acco-info .acco-accom .accom-loc{
 	font-size: 14px;

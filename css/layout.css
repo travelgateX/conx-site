@@ -2362,7 +2362,13 @@ textarea {
 #work .one-third img {
 	width: 100%;
 }
-
+#work .silver, #work .bronze{
+	margin-top: 2em;
+}
+#work .silver-spon, #work .bronze-spon, #work .gold-spon{
+	display: flex;
+	justify-content: center;
+}
 .portfolio-wrap {
 	position: relative;
 	width: 100%;
@@ -3612,6 +3618,9 @@ iframe {
 	#accomodation .acco-wrapp, #accomodation .acco-wrapp .acco-container{
 		flex-direction: column;
 	}
+	#work .silver-spon, #work .bronze-spon, #work .gold-spon{
+		display: initial;
+	}
 }
 
 @media only screen and (max-width: 319px) {
@@ -3709,6 +3718,9 @@ iframe {
 	}
 	#accomodation .acco-wrapp, #accomodation .acco-wrapp .acco-container{
 		flex-direction: column;
+	}
+	#work .silver-spon, #work .bronze-spon, #work .gold-spon{
+		display: initial;
 	}
 }
 

@@ -2365,7 +2365,7 @@ textarea {
 #work .silver, #work .bronze{
 	margin-top: 2em;
 }
-#work .silver-spon, #work .bronze-spon, #work .gold-spon{
+#work .silver-spon, #work .bronze-spon, #work .gold-spon, #footer .colla-spon{
 	display: flex;
 	justify-content: center;
 }
@@ -3612,13 +3612,12 @@ iframe {
 		flex-direction: column;
 	}
 	.logos-coming .two.columns, #work .three.columns{
-		width: 130px !important;
 		margin: 0 0.5em !important;
 	}
 	#accomodation .acco-wrapp, #accomodation .acco-wrapp .acco-container{
 		flex-direction: column;
 	}
-	#work .silver-spon, #work .bronze-spon, #work .gold-spon{
+	#work .silver-spon, #work .bronze-spon, #work .gold-spon, #footer .colla-spon{
 		display: initial;
 	}
 }
@@ -3719,8 +3718,8 @@ iframe {
 	#accomodation .acco-wrapp, #accomodation .acco-wrapp .acco-container{
 		flex-direction: column;
 	}
-	#work .silver-spon, #work .bronze-spon, #work .gold-spon{
-		display: initial;
+	#work .silver-spon, #work .bronze-spon, #work .gold-spon, #footer .colla-spon{
+		display: block;
 	}
 }
 

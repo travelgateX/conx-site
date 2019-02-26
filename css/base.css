@@ -473,6 +473,7 @@ h1 span:after  {
 		position: relative;
 		text-align: center;
 		width: 100%;
+	    transform: scale(0.95);
 	}
 	
 	.snip1585 * {

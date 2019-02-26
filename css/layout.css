@@ -489,8 +489,6 @@ ul.slimmenu li ul li a {
 	color: #fff;
 }
 
-ul.slimmenu li ul li a:hover {}
-
 ul.slimmenu li ul li {
 	background: none;
 	padding-left: 0;
@@ -592,8 +590,6 @@ ul.slimmenu li {
 	padding-left: 20px;
 }
 
-ul.slimmenu>li {}
-
 ul.slimmenu>li:first-child {
 	border-left: 0
 }
@@ -623,8 +619,6 @@ ul.slimmenu li a {
 ul.slimmenu li a:hover {
 	text-decoration: none;
 }
-
-ul.slimmenu li {}
 
 ul.slimmenu li:first-child {
 	background: none;
@@ -924,8 +918,6 @@ div#home::after {
 	-ms-transition: all 300ms linear;
 	transition: all 300ms linear;
 }
-
-.list-social li:hover {}
 
 .list-social li:hover.icon-soc a {
 	opacity: .6;
@@ -1401,8 +1393,6 @@ path.stroke-thin {
 .team-social li:last-child.icon-team a {
 	padding-right: 0;
 }
-
-.team-social li:hover {}
 
 .team-social li:hover.icon-team a {
 	opacity: .6;
@@ -3024,12 +3014,6 @@ iframe {
 	box-shadow: 0 9px 9px -7px rgba(0, 0, 0, .2);
 }
 
-.services-offer:hover h6,
-.services-offer:hover p,
-.services-offer:hover .services-icon1:before,
-.services-offer:hover .services-icon2:before,
-.services-offer:hover .services-icon3:before {}
-
 .services-offer h6 {
 	text-align: center;
 	padding-top: 20px;
@@ -3123,8 +3107,6 @@ iframe {
 	-ms-transition: all 300ms linear;
 	transition: all 300ms linear;
 }
-
-.services-offer .services-link:hover {}
 
 .featured {
 	-webkit-transform: scale(1.05);
@@ -3412,7 +3394,7 @@ iframe {
 	}
 
 	.flipWrapper {
-		height: 236px;
+		height: 250px;
 	}
 
 	.flipWrapper svg {
@@ -3611,15 +3593,12 @@ iframe {
 	#footer .foot-links ul {
 		flex-direction: column;
 	}
-	.logos-coming .two.columns, #work .three.columns{
-		margin: 0 0.5em !important;
-	}
 	#accomodation .acco-wrapp, #accomodation .acco-wrapp .acco-container{
 		flex-direction: column;
 	}
-	#work .silver-spon, #work .bronze-spon, #work .gold-spon, #footer .colla-spon{
-		display: initial;
-	}
+	/* #work .silver-spon, #work .bronze-spon, #work .gold-spon, #footer .colla-spon{
+		display: block;
+	} */
 }
 
 @media only screen and (max-width: 319px) {
@@ -3713,7 +3692,6 @@ iframe {
 	}
 	.logos-coming .two.columns, #work .three.columns{
 		width: 130px !important;
-		margin: 0 0.5em !important;
 	}
 	#accomodation .acco-wrapp, #accomodation .acco-wrapp .acco-container{
 		flex-direction: column;
@@ -3803,4 +3781,25 @@ iframe {
   
   .StripeElement--webkit-autofill {
 	background-color: #fefde5 !important;
-  }
+	}
+	
+	@media (max-width: 768px){
+		.snip1563{
+			height: 235px;
+		}
+	}
+	@media (max-width: 425px){
+		.snip1563{
+			height: 300px;
+		}
+		#footer .colla-spon, #work .bronze-spon{
+			display: flex;
+			flex-wrap: wrap;
+		}
+		#footer .colla-spon .two.columns, #work .bronze-spon .two.columns{
+			flex: 0 0 50%;
+		}
+		.silver-spon .three.columns{
+			flex: 0 0 75%;
+		}
+	}

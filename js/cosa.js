@@ -112,7 +112,6 @@ function initCarousel(){
     {
         return Math.floor((Math.random()*$n)+1);	
     }
-    console.log('hola3');
     
 }
 

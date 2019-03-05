@@ -1,4 +1,5 @@
-var $ = jQuery;
+console.log('hola');
+
 // extend jQuery
 $.fn.extend({
     flippy: function (options) {

@@ -508,35 +508,35 @@ function onYouTubePlayerAPIReady() {
 			YTPlayer.videoID = videoID;
 			if (!jQuery.browser.msie) { //!(jQuery.browser.msie && jQuery.browser.version<9)
 
-				jQuery.getJSON('http://gdata.youtube.com/feeds/api/videos/' + videoID + '?v=2&alt=jsonc', function (data, status, xhr) {
+				// jQuery.getJSON('http://gdata.youtube.com/feeds/api/videos/' + videoID + '?v=2&alt=jsonc', function (data, status, xhr) {
 
-					YTPlayer.dataReceived = true;
+				// 	YTPlayer.dataReceived = true;
 
-					var videoData = data.data;
+				// 	var videoData = data.data;
 
-					YTPlayer.title = videoData.title;
-					YTPlayer.videoData = videoData;
+				// 	YTPlayer.title = videoData.title;
+				// 	YTPlayer.videoData = videoData;
 
-					if (YTPlayer.opt.ratio == "auto")
-						if (videoData.aspectRatio && videoData.aspectRatio === "widescreen")
-							YTPlayer.opt.ratio = "16/9";
-						else
-							YTPlayer.opt.ratio = "4/3";
+				// 	if (YTPlayer.opt.ratio == "auto")
+				// 		if (videoData.aspectRatio && videoData.aspectRatio === "widescreen")
+				// 			YTPlayer.opt.ratio = "16/9";
+				// 		else
+				// 			YTPlayer.opt.ratio = "4/3";
 
-					if(!YTPlayer.isInit){
+				// 	if(!YTPlayer.isInit){
 
-						YTPlayer.isInit = true;
+				// 		YTPlayer.isInit = true;
 
-						if (!YTPlayer.isBackground) {
-							var bgndURL = YTPlayer.videoData.thumbnail.hqDefault;
+				// 		if (!YTPlayer.isBackground) {
+				// 			var bgndURL = YTPlayer.videoData.thumbnail.hqDefault;
 
-							jQuery(YTPlayer).css({background: "rgba(0,0,0,0.5) url(" + bgndURL + ") center center", backgroundSize: "cover"});
-						}
+				// 			jQuery(YTPlayer).css({background: "rgba(0,0,0,0.5) url(" + bgndURL + ") center center", backgroundSize: "cover"});
+				// 		}
 
-						jQuery(document).trigger("getVideoInfo_" + YTPlayer.opt.id);
-					}
-					jQuery(YTPlayer).trigger("YTPChanged");
-				});
+				// 		jQuery(document).trigger("getVideoInfo_" + YTPlayer.opt.id);
+				// 	}
+				// 	jQuery(YTPlayer).trigger("YTPChanged");
+				// });
 
 				setTimeout(function(){
 					if(!YTPlayer.dataReceived && !YTPlayer.isInit){

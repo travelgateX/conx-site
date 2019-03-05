@@ -5,10 +5,6 @@
 @import url(http://fonts.googleapis.com/css?family=Satisfy);
 
 
-
-@import url("colors/color-orange.css");
-
-
 /* #Panel
 ================================================== */
 
@@ -2135,6 +2131,9 @@ textarea {
 	position: relative;
 	z-index: 200;
 	opacity: .8;
+	background-image: url(../images/googlemaps.png);
+	background-position: center;
+	background-size: cover;
 }
 
 .button-map {

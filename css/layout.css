@@ -1494,6 +1494,12 @@ path.stroke-thin {
 	background-size: cover;
 }
 
+#accomodation .acco-wrapp .acco-container .pure{
+	background-image: url(https://dvjxw71fkvrk7.cloudfront.net/puresaltluxuryhotels.com-2951916564/cms/cache/v2/589a5d30af538.jpg/1920x1080/resize/80/b43e73077b556d2c440c435ca5c97386.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
 #accomodation .acco-wrapp .acco-container .acco-hotel{
 	width: 100%;
 	height: 550px;

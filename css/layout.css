@@ -3755,7 +3755,7 @@ iframe {
 	align-items: center;
 	justify-content: center;
 	background-color: #FFF;
-	height: 120px;
+	height: auto;
 }
 
 /* STRIPE */

@@ -3755,7 +3755,7 @@ iframe {
 	align-items: center;
 	justify-content: center;
 	background-color: #FFF;
-	height: auto;
+	height: 120px;
 }
 
 /* STRIPE */
@@ -3809,6 +3809,9 @@ iframe {
 		}
 		.silver-spon .three.columns{
 			flex: 0 0 75%;
+		}
+		.logos-coming .slider .slick-list .slick-track .slide{
+			height: 60px !important;
 		}
 	}
 

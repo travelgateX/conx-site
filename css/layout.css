@@ -1223,6 +1223,12 @@ path.stroke-thin {
 	margin-top: 4em !important;
 }
 
+.center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 #team {
 	position: relative;
 	margin: 0 auto;

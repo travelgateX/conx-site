@@ -1570,6 +1570,10 @@ path.stroke-thin {
 #accomodation .acco-wrapp .acco-container .acco-hotel .acco-info .acco-accom .accom-loc p i{
 	margin-right: 0.2em;
 }
+/* Swappt */
+.swappt{
+	background: transparent !important;
+}
 /* #Sep sections
 ================================================== */
 #sep {

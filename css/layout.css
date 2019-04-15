@@ -1431,6 +1431,7 @@ path.stroke-thin {
 #accomodation .banner-vip .banner-info p{
 	font-size: 24px;
 	color: #FFF;
+	text-align: center;
 }
 
 #accomodation .banner-vip::after{
@@ -2238,6 +2239,10 @@ textarea {
 	background: #101010;
 	padding-top: 60px;
 	padding-bottom: 35px;
+}
+
+#footer .bronze h2{
+	padding: 0;
 }
 
 #footer .foot-links ul {
@@ -3779,6 +3784,12 @@ iframe {
 	justify-content: center;
 	background-color: #FFF;
 	height: 120px;
+}
+
+/* TICKETS */
+.sold{
+	text-align: center !important;
+	font-size: 1.4rem !important;
 }
 
 /* STRIPE */

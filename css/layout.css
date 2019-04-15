@@ -3781,6 +3781,12 @@ iframe {
 	height: 120px;
 }
 
+/* TICKETS */
+.sold{
+	text-align: center !important;
+	font-size: 1.4rem !important;
+}
+
 /* STRIPE */
 /**
  * The CSS shown here will not be introduced in the Quickstart guide, but shows

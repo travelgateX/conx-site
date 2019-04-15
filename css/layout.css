@@ -2241,6 +2241,10 @@ textarea {
 	padding-bottom: 35px;
 }
 
+#footer .bronze h2{
+	padding: 0;
+}
+
 #footer .foot-links ul {
 	display: flex;
 	justify-content: center;

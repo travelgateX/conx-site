@@ -1574,6 +1574,15 @@ path.stroke-thin {
 .swappt{
 	background: transparent !important;
 }
+/* full list*/
+.full-list p{
+	text-align: center !important;
+	margin-top: 1em;
+	font-size: 1.4rem !important;
+}
+.full-list p a{
+	color: #009DF6 !important;
+}
 /* #Sep sections
 ================================================== */
 #sep {
@@ -1585,7 +1594,7 @@ path.stroke-thin {
 }
 
 div#sep::after,
-div#sep1::after {
+div#attending::after {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -1595,7 +1604,7 @@ div#sep1::after {
 	height: 100%;
 }
 
-#sep1 {
+#attending {
 	position: relative;
 	margin: 0 auto;
 	width: 100%;
@@ -1603,19 +1612,19 @@ div#sep1::after {
 	padding-bottom: 70px;
 }
 
-#sep1 p {
+#attending p {
 	font-size: 18px;
 	font-weight: 200;
 	padding-bottom: 16px;
 	text-align: left;
 }
 
-#sep1 .best-for {
+#attending .best-for {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-#sep1 .best-for li {
+#attending .best-for li {
 	background-color: #959595;
 	padding: 0.5em;
 	margin: 0.1em;
@@ -3753,6 +3762,10 @@ iframe {
 }
 
 /* LOGOS COMING */
+
+.logos-coming{
+	margin-top: 3em !important;
+}
 
 .logos-coming h6{
 	margin-bottom: 2em;

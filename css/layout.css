@@ -1431,6 +1431,7 @@ path.stroke-thin {
 #accomodation .banner-vip .banner-info p{
 	font-size: 24px;
 	color: #FFF;
+	text-align: center;
 }
 
 #accomodation .banner-vip::after{

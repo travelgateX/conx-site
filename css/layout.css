@@ -3790,6 +3790,7 @@ iframe {
 .sold{
 	text-align: center !important;
 	font-size: 1.4rem !important;
+	line-height: 30px;
 }
 
 /* STRIPE */

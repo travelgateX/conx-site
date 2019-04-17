@@ -3852,6 +3852,9 @@ iframe {
 		.logos-coming .slider .slick-list .slick-track .slide{
 			height: 60px !important;
 		}
+		.center{
+			flex-direction: column;
+		}
 	}
 
 	/* Slider */

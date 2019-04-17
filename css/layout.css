@@ -1581,7 +1581,11 @@ path.stroke-thin {
 	margin-top: 1em;
 	font-size: 1.4rem !important;
 }
-.full-list p a{
+.full-program p{
+	text-align: center !important;
+	font-size: 1.4rem !important;
+}
+.full-list p a, .full-program p a{
 	color: #009DF6 !important;
 }
 /* #Sep sections

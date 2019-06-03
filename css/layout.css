@@ -941,6 +941,20 @@ div#home::after {
 	text-align: center;
 }
 
+.just_pattern_entry {
+	position: absolute;
+	opacity: 0.8;
+	left: 0px;
+	top: 0px;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	/* background-image: url(../images/conx-gallery/conx-speakers.jpg);
+	background-size: cover; */
+}
+
 
 
 
@@ -1760,9 +1774,10 @@ div#attending::after {
 .facts-wrap {
 	position: relative;
 	width: 100%;
+	height: 460px;
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 4em;
+	padding-top: 2em;
 }
 
 .facts-wrap p {

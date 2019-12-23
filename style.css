@@ -282,6 +282,9 @@ input:required {
 .single-contact-info h6 a {
   color: #fff;
 }
+.single-contact-info h6 a:hover {
+  color: #418FDE;
+}
 
 .footer-contact-info p a {
   color: #fff;
@@ -1115,7 +1118,7 @@ input:required {
   position: relative;
   z-index: 1;
   font-weight: 700;
-  font-size: 90px;
+  font-size: 80px;
   text-transform: uppercase;
   display: block;
   margin-bottom: 10px;

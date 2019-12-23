@@ -134,6 +134,10 @@
     height: 940px;
     background-color: $primary;
 
+    @media (max-width: 1366px){
+        height: 760px;
+    }
+
     @media #{$breakpoint-lg} {
         height: 540px;
     }

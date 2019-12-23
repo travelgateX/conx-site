@@ -1095,6 +1095,11 @@ input:required {
   height: 940px;
   background-color: #418FDE;
 }
+@media (max-width: 1366px) {
+  .single-welcome-slide {
+    height: 760px;
+  }
+}
 @media only screen and (min-width:992px) and (max-width:1199px) {
   .single-welcome-slide {
     height: 540px;

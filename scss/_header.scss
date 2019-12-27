@@ -18,6 +18,7 @@
         }
 
         .logo {
+            z-index: 99999;
             img {
                 width: 140px;
             }
@@ -30,6 +31,7 @@
                 color: $white;
                 font-weight: 500;
                 padding: 0 20px;
+                position: initial !important;
 
                 &:hover,
                 &:focus {

@@ -1682,6 +1682,11 @@ input:required {
     font-size: 14px;
   }
 }
+@media (max-width: 425px) {
+  .about-us-countdown-area .countdown-up-area .countdown-content-text {
+    margin-bottom: 50px;
+  }
+}
 .about-us-countdown-area .countdown-up-area .countdown-timer #clock {
   display: -webkit-box;
   display: -ms-flexbox;

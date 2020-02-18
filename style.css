@@ -2006,6 +2006,12 @@ input:required {
 .single-blog-area .single-blog-thumb {
   border-radius: 10px 10px 0 0;
   overflow: hidden;
+  height: 200px;
+}
+@media (max-width: 1024px) {
+  .single-blog-area .single-blog-thumb {
+    height: 170px;
+  }
 }
 .single-blog-area .single-blog-thumb img {
   border-radius: 10px 10px 0 0;
@@ -2017,6 +2023,7 @@ input:required {
   background-color: #ffffff;
   padding: 30px 30px 50px 30px;
   border-radius: 0 0 10px 10px;
+  min-height: 345px;
 }
 .single-blog-area .single-blog-text .blog-title {
   font-size: 20px;

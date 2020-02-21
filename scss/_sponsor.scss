@@ -22,6 +22,7 @@
         @include justify-content-center;
         margin-left: -1px;
         margin-top: -1px;
+        padding: 1em;
 
         @media #{$breakpoint-lg} {
             height: 200px;
@@ -32,7 +33,10 @@
         }
 
         @media #{$breakpoint-xs} {
-            height: 80px;
+            height: 130px;
+            flex: 0 0 50%;
+            width: 50%;
+            max-width: 50%;
         }
 
         a {
@@ -46,12 +50,14 @@
                 }
 
                 @media #{$breakpoint-md} {
-                    max-height: 50px;
+                    max-height: 90px;
                 }
 
                 @media #{$breakpoint-xs} {
-                    max-height: 30px;
+                    max-height: 80px;
                 }
+
+                filter: contrast(0);
             }
         }
 
@@ -60,6 +66,29 @@
             a {
                 img {
                     opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+.bronze {
+    .our-sponsor-area {
+        .single-sponsor {
+            max-width: 16%;
+            height: 140px;
+
+            @media #{$breakpoint-md} {
+                height: 100px;
+            }
+
+            @media #{$breakpoint-xs} {
+                max-height: 130px;
+                max-width: 50%;
+                flex: 0 0 50%;
+
+                img {
+                    max-height: 80px;
                 }
             }
         }

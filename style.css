@@ -3325,6 +3325,7 @@ input:required {
   justify-content: center;
   margin-left: -1px;
   margin-top: -1px;
+  padding: 1em;
 }
 @media only screen and (min-width:992px) and (max-width:1199px) {
   .our-sponsor-area .single-sponsor {
@@ -3338,7 +3339,10 @@ input:required {
 }
 @media only screen and (max-width:767px) {
   .our-sponsor-area .single-sponsor {
-    height: 80px;
+    height: 130px;
+    flex: 0 0 50%;
+    width: 50%;
+    max-width: 50%;
   }
 }
 .our-sponsor-area .single-sponsor a img {
@@ -3347,6 +3351,7 @@ input:required {
   transition-duration: 300ms;
   max-height: 110px;
   opacity: 0.5;
+  filter: contrast(0);
 }
 @media only screen and (min-width:992px) and (max-width:1199px) {
   .our-sponsor-area .single-sponsor a img {
@@ -3355,16 +3360,36 @@ input:required {
 }
 @media only screen and (min-width:768px) and (max-width:991px) {
   .our-sponsor-area .single-sponsor a img {
-    max-height: 50px;
+    max-height: 90px;
   }
 }
 @media only screen and (max-width:767px) {
   .our-sponsor-area .single-sponsor a img {
-    max-height: 30px;
+    max-height: 80px;
   }
 }
 .our-sponsor-area .single-sponsor:hover a img, .our-sponsor-area .single-sponsor:focus a img {
   opacity: 1;
+}
+
+.bronze .our-sponsor-area .single-sponsor {
+  max-width: 16%;
+  height: 140px;
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+  .bronze .our-sponsor-area .single-sponsor {
+    height: 100px;
+  }
+}
+@media only screen and (max-width:767px) {
+  .bronze .our-sponsor-area .single-sponsor {
+    max-height: 130px;
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+  .bronze .our-sponsor-area .single-sponsor img {
+    max-height: 80px;
+  }
 }
 
 /* :: 20.0 Contact Area CSS */

@@ -1997,6 +1997,10 @@ input:required {
     padding-right: 15px;
   }
 }
+.our-blog-area .row .badge {
+  font-size: 1rem;
+  font-weight: 400;
+}
 
 .single-blog-area {
   position: relative;
@@ -3390,6 +3394,18 @@ input:required {
   .bronze .our-sponsor-area .single-sponsor img {
     max-height: 80px;
   }
+}
+
+.jacobs-wrapp {
+  background-image: url("/img/logos/jacobsgif-2.gif");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+.jacobs-wrapp h4 {
+  position: relative;
+  top: -90px;
 }
 
 /* :: 20.0 Contact Area CSS */

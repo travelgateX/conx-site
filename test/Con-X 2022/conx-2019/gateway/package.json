@@ -1,0 +1,13 @@
+{
+    "name": "payment_gateway",
+    "version": "0.0.0",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "body-parser": "1.18.3",
+        "cors": "2.8.5",
+        "express": "4.16.4",
+        "request": "2.88.0",
+        "stripe": "^6.16.0"
+    }
+}

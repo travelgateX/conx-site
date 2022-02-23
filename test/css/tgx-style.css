@@ -210,13 +210,20 @@ p,
     margin: 0 auto;
 }
 
+.au-bg-primary{
+    background: linear-gradient(180deg, #0b59de 1%, #2f7afa 100%);
+    font-size: 1rem;
+    padding: 10px;
+    font-weight: 400;
+}
+
 .page-wrapper {
     position: relative;
     margin: 0 auto;
     width: 100%;
     min-width: 300px;
     overflow: hidden;
-    z-index: 1;
+    z-index: 2;
     background-color: #ffffff;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -239,7 +246,13 @@ li {
 }
 
 .attendee-list-style{
-    columns: 2;
+    columns: 4;
+}
+
+@media (max-width: 768px){
+    .attendee-list-style{
+        columns: 3;
+    }
 }
 
 @media (max-width: 425px){
@@ -1446,7 +1459,6 @@ hr {
     line-height: 25px;
     color: #ffffff;
     font-weight: 400;
-    margin-right: 60px;
 }
 
 .contact-list-one li:last-child {
@@ -1460,12 +1472,13 @@ hr {
     line-height: 25px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-top: 5px;
 }
 
 .contact-list-one li i {
     position: absolute;
     left: 0;
-    top: 7px;
+    top: 0;
     font-size: 38px;
     line-height: 30px;
     color: #0b59de;
@@ -1476,6 +1489,10 @@ hr {
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
+}
+
+.contact-list-one li a:hover{
+    color: #ff7c00;
 }
 
 .nav-toggler {
@@ -1633,7 +1650,7 @@ hr {
 .main-menu .navigation>li.current>a,
 .main-menu .navigation>li>a:hover,
 .main-menu .navigation>li>a:active {
-    color: #ffae00;
+    color: #0b59de;
 }
 
 .main-menu .navigation>li>a:before {
@@ -1646,7 +1663,7 @@ hr {
     -webkit-transform: scale(-1);
     -ms-transform: scale(-1);
     transform: scale(-1);
-    background-color: #ff7c00;
+    background-color: #0b59de;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
@@ -3619,6 +3636,22 @@ Page Title
     min-width: 180px !important;
 }
 
+.main-slider .tp-caption h2{
+    line-height: initial;
+}
+
+.main-slider .tp-caption h2 .hero_adapt{
+    font-size: 3rem;
+}
+
+.main-slider .tp-caption h2 .hero_pivot{
+    font-size: 4rem;
+}
+
+.main-slider .tp-caption h2 .hero_grown{
+    font-size: 5rem;
+}
+
 
 /*** 
 
@@ -4361,7 +4394,7 @@ a.ui-button:active,
 }
 
 .about-section .content-column p {
-    margin-bottom: 24px;
+    margin-bottom: 10px;
 }
 
 .about-section .content-column .btn-box {
@@ -5604,7 +5637,6 @@ a.ui-button:active,
     border: 5px solid #ffffff;
     -webkit-box-shadow: 0 14px 20px rgba(0, 0, 0, .20);
     box-shadow: 0 14px 20px rgba(0, 0, 0, .20);
-    border-radius: 0 0 250px 250px;
     overflow: hidden;
     margin-bottom: 0;
 }
@@ -5616,7 +5648,6 @@ a.ui-button:active,
     top: 0;
     bottom: 17px;
     border: 3px solid #dddddd;
-    border-radius: 0 0 250px 250px;
     content: "";
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
@@ -6652,7 +6683,6 @@ a.ui-button:active,
     position: relative;
     height: 100px;
     width: 100px;
-    border: 5px dashed #ffffff;
     font-size: 14px;
     line-height: 1.2em;
     color: #ffffff;

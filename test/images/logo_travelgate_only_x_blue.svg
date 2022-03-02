@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="44" viewBox="0 0 42 44">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_2" data-name="Rectángulo 2" width="42" height="44" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-Personalizado_1">
+      <rect width="42" height="44"/>
+    </clipPath>
+  </defs>
+  <g id="Personalizado_1" data-name="Personalizado – 1" clip-path="url(#clip-Personalizado_1)">
+    <g id="Personalizado_1-2" data-name="Personalizado – 1" clip-path="url(#clip-path)">
+      <rect id="Rectángulo_1" data-name="Rectángulo 1" width="42" height="44" fill="none"/>
+      <g id="layer1" transform="translate(-167.188 -2.184)">
+        <g id="g4069" transform="translate(194.102 24.546)">
+          <path id="path4071" d="M0,0-12.924-18.542H-24.593L-11.8.128-26.382,22.046h11.307" fill="#0b59de"/>
+        </g>
+        <g id="g4073" transform="translate(209.015 2.592)">
+          <path id="path4075" d="M0,0H-11.662l-8.033,11.853,6.046,8.34" fill="#0b59de"/>
+        </g>
+        <g id="g4077" transform="translate(195.24 26.265)">
+          <path id="path4079" d="M0,0,11.662,16.963H-.007L-5.92,8.377" fill="#0b59de"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

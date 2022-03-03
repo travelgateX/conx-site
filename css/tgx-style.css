@@ -7046,6 +7046,12 @@ a.ui-button:active,
     box-shadow: 0 0 10px rgb(0 0 0 / 13%);
 }
 
+@media (max-width: 425px){
+    .schedule-block-two .date-box .count{
+        display: none;
+    }
+}
+
 .schedule-block-two .date-box .count span {
     font-size: 16px;
 }
@@ -7100,6 +7106,16 @@ a.ui-button:active,
     position: absolute;
     top: -40px;
     right: -40px;
+}
+
+@media (max-width: 425px) {
+    .schedule-block-two .speaker-info .tgx_image {
+        position: initial;
+    }
+
+    .schedule-block-two .tgx_border::before{
+        display: none;
+    }
 }
 
 .schedule-block-two .tgx_border::before {
@@ -10423,7 +10439,7 @@ Accordian Box
     margin-bottom: 50px;
 }
 
-.clients-section .fantastic-sponsors .client-block .image-box{
+.clients-section .fantastic-sponsors .client-block .image-box {
     box-shadow: none;
 }
 
@@ -10451,7 +10467,7 @@ Accordian Box
     transition: all 500ms ease;
 }
 
-.client-block .filter-i img{
+.client-block .filter-i img {
     filter: invert(100%);
 }
 

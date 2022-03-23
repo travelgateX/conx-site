@@ -925,8 +925,8 @@ Owl Carousel Arrows
     width: 100%;
     background-color: #ffffff;
     z-index: 9999;
-    background-image: url(../images/logo_travelgate_only_x_blue.svg);
-    background-size: 150px;
+    background-image: url(../images/logo_tgx_animate.svg);
+    background-size: 300px;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -7046,8 +7046,8 @@ a.ui-button:active,
     box-shadow: 0 0 10px rgb(0 0 0 / 13%);
 }
 
-@media (max-width: 425px){
-    .schedule-block-two .date-box .count{
+@media (max-width: 425px) {
+    .schedule-block-two .date-box .count {
         display: none;
     }
 }
@@ -7113,7 +7113,7 @@ a.ui-button:active,
         position: initial;
     }
 
-    .schedule-block-two .tgx_border::before{
+    .schedule-block-two .tgx_border::before {
         display: none;
     }
 }

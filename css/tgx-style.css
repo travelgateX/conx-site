@@ -14304,3 +14304,7 @@ Accordian Box
 .conx-audience-perc .counter-title {
     font-size: 1.1rem;
 }
+
+.tp-parallax-wrap:nth-of-type(8){
+    top: 220px !important;
+}

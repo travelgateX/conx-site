@@ -3736,6 +3736,10 @@ Page Title
 
 ***/
 
+* {
+    font-family: 'Roboto', sans-serif !important;
+}
+
 .banner-section {
     position: relative;
 }
@@ -3760,7 +3764,7 @@ Page Title
     background: #000ec1;
     background: -o-radial-gradient(center, ellipse, #000ec1 0%, #000c47 56%, #000c47 100%);
     background: radial-gradient(ellipse at center, #000ec1 0%, #000c47 56%, #000c47 100%);
-    opacity: .90;
+    opacity: .80 !important;
     content: "";
 }
 
@@ -14305,6 +14309,6 @@ Accordian Box
     font-size: 1.1rem;
 }
 
-.tp-parallax-wrap:nth-of-type(8){
+.tp-parallax-wrap:nth-of-type(8) {
     top: 220px !important;
 }

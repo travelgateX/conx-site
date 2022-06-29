@@ -14321,3 +14321,9 @@ Accordian Box
 .tp-parallax-wrap:nth-of-type(8) {
     top: 220px !important;
 }
+
+.icon-h{
+    position: initial !important;
+    line-height: 1 !important;
+    vertical-align: middle;
+}

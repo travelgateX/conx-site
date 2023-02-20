@@ -14790,3 +14790,17 @@ Accordian Box
   border-width: 0 40px 20px 0;
   border-color: transparent #0b59de transparent transparent;
 }
+
+@media screen and (max-width: 425px) {
+  .logo_countdown::after {
+    border-width: 20px 0 0 34px;
+    left: -6px;
+    top: -18px;
+  }
+
+  .logo_countdown::before {
+    border-width: 0 34px 20px 0;
+    left: -6px;
+    bottom: -23px;
+  }
+}

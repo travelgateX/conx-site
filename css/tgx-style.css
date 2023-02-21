@@ -5072,6 +5072,93 @@ a.ui-button:active,
   padding: 10px;
   border-radius: 50px;
 }
+
+
+/***
+
+==================================================================
+    AfterX section
+==================================================================
+
+***/
+
+.afterx-section{
+  background-image: url(./../images/background//afterx_banner_bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.afterx-section::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 70px 70px 0 0;
+  border-color: #fff transparent transparent transparent;
+}
+.afterx-section::before{
+  content: '';
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(11, 89, 222, 0.7);
+}
+
+.afterx-section p{
+  color: #FFF;
+  font-size: 30px;
+  z-index: 1;
+  position: relative;
+  line-height: 36px;
+}
+
+.afterx-section .btn-afterx{
+  background-color: #FFF;
+  color: #0b59de;
+  font-size: 14px;
+  z-index: 1;
+  position: relative;
+  border-radius: 2px;
+}
+
+.afterx-section .afterx_logo_banner{
+  position: absolute;
+  top: 100px;
+  right: 0;
+  width: 600px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .afterx-section .afterx_logo_banner{
+    width: 500px;
+  }
+  .afterx-section p{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .afterx-section .afterx_logo_banner{
+    width: 500px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+  }
+  .afterx-section p{
+    font-size: 20px;
+  }
+}
+
+
 /***
 
 ==================================================================
@@ -7217,7 +7304,7 @@ a.ui-button:active,
   -ms-flex-align: center;
   align-items: center;
   border: 1px solid #ebebeb;
-  padding: 40px 40px;
+  padding: 21px 40px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -7311,9 +7398,9 @@ a.ui-button:active,
 }
 
 .schedule-block-two .speaker-info .tgx_image {
-  width: 225px;
+  width: 167px;
   position: absolute;
-  top: -40px;
+  top: -21px;
   right: -40px;
 }
 
@@ -7325,19 +7412,31 @@ a.ui-button:active,
   .schedule-block-two .tgx_border::before {
     display: none;
   }
+  .schedule-block-two .tgx_border .tgx_image{
+    position: initial;
+  }
+}
+
+@media (max-width: 768px){
+  .schedule-block-two .tgx_border::before {
+    display: none;
+  }
+  .schedule-block-two .tgx_border .tgx_image{
+    position: initial;
+  }
 }
 
 .schedule-block-two .tgx_border::before {
   content: '';
   position: absolute;
-  transform: rotate(-45deg);
-  top: -56px;
-  left: 25px;
+  transform: rotate(90deg);
+  top: -21px;
+  left: 153px;
   z-index: 1;
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 107px 107px 107px;
+  border-width: 0 110px 110px 0;
   border-color: transparent transparent #fff transparent;
   transition: all 300ms ease;
 }
@@ -7556,6 +7655,9 @@ a.ui-button:active,
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .schedule-block-three .speaker-info .name {
@@ -7689,6 +7791,12 @@ a.ui-button:active,
   font-size: 40px;
   font-weight: 500;
   color: #282828;
+}
+
+@media screen and (max-width: 1024px) {
+  .attendees-section h5{
+    font-size: 24px;
+  }
 }
 
 .attendees-section p {

@@ -3843,6 +3843,14 @@ li {
   color: #0b59de !important;
 }
 
+.afterx-section-about .video-box-one{
+  margin: 0 !important;
+}
+
+.afterx-section-about .video-box-one .play-btn{
+  top: 39% !important;
+}
+
 .banner-section .content-box .title {
   display: block;
   font-size: 24px;

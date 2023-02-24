@@ -15055,3 +15055,59 @@ Accordian Box
   border-width: 0 0 70px 70px;
   border-color: transparent transparent #fff transparent;
 }
+
+.coming_soon{
+  position: absolute;
+  right: 35%;
+  width: 120px !important;
+}
+
+.hero_coming{
+  right: 76% !important;
+}
+
+.coming_about{
+  right: 51% !important;
+}
+
+.space-sponsors-section .sponsors-afterx-info{
+  background: rgba(179, 222, 255, 0.2);
+  position: relative;
+}
+
+.space-sponsors-section .sponsors-afterx-info::after{
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  right: -50px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 240px 50px 0 0;
+  border-color: #f2f8fd transparent transparent transparent;  
+}
+
+.space-sponsors-section .sponsors-afterx-info h2{
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.space-sponsors-section .sponsors-afterx-info p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.space-sponsors-section .sponsors-afterx-info a{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.space-sponsors-section .bg-sponsors-afterx{
+  background-image: url(./../images/background/sponsors_afterx.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

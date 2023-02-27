@@ -4325,6 +4325,15 @@ a.ui-button:active,
   border-color: transparent transparent #0c2340 transparent;
 }
 
+@media screen and (max-width: 425px) {
+  .banner-section-two .slide-item::after{
+    display: none;
+  }
+  .banner-carousel .owl-carousel .owl-theme .owl-loaded .owl-drag{
+    height: 545px;
+  }
+}
+
 .banner-section-two .slide-item .auto-container .conx_afterx_banner {
   position: absolute;
   z-index: 1;
@@ -15084,12 +15093,87 @@ Accordian Box
   width: 120px !important;
 }
 
+@media screen and (max-width: 1024px) {
+  .coming_soon{
+    right: 32% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .coming_soon{
+    right: 25% !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .coming_soon{
+    right: 4% !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .coming_soon{
+    right: -2% !important;
+  }
+}
+
 .hero_coming {
   right: 76% !important;
 }
 
+@media screen and (max-width: 1024px) {
+  .hero_coming{
+    right: 71% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero_coming{
+    right: 61% !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero_coming{
+    right: 27% !important;
+  }
+  .banner-section .content-box .text{
+    padding: 30px 0 0 0 !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hero_coming{
+    right: 18% !important;
+  }
+}
+
 .coming_about {
   right: 51% !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .coming_about{
+    right: 41% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .coming_about{
+    right: 61% !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .coming_about{
+    right: 27% !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .coming_about{
+    right: 17% !important;
+  }
 }
 
 .space-sponsors-section .sponsors-afterx-info {

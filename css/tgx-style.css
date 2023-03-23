@@ -10976,6 +10976,10 @@ Accordian Box
   margin-bottom: 30px;
 }
 
+.client-block-md{
+  width: 20% !important;
+}
+
 .client-block .image-box {
   position: relative;
   text-align: center;

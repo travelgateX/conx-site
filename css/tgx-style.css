@@ -5148,7 +5148,7 @@ a.ui-button:active,
 ***/
 
 .afterx-section {
-  background-image: url(./../images/background//afterx_banner_bg.svg);
+  background-image: url('./../images/background/afterx_banner_bg.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6272,15 +6272,15 @@ a.ui-button:active,
 
 .speaker-block-two .image-box {
   position: relative;
-  padding: 20px 20px;
+  padding: 20px;
   max-width: 270px;
   margin: 0 auto;
 }
 
 .speaker-block-two .image {
   position: relative;
-  height: 230px;
-  width: 230px;
+  height: 210px;
+  width: 210px;
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 0;
@@ -7424,6 +7424,7 @@ a.ui-button:active,
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 70px;
 }
 
 .schedule-block-two .inner-box.bg-finger {
@@ -7431,6 +7432,7 @@ a.ui-button:active,
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 70px;
 }
 
 .schedule-block-two .inner-box {
@@ -7442,21 +7444,22 @@ a.ui-button:active,
   -ms-flex-align: center;
   align-items: center;
   border: 1px solid #ebebeb;
-  padding: 21px 40px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-transition: all 300ms ease;
   -o-transition: all 300ms ease;
   transition: all 300ms ease;
+  padding: 21px 40px;
 }
 
 .schedule-block-two .inner-box:hover {
   background-color: #fff;
 }
 
+
+
 .schedule-block-two .date-box {
-  position: relative;
   padding-left: 90px;
   min-width: 270px;
   padding-right: 20px;
@@ -7492,7 +7495,6 @@ a.ui-button:active,
 
 .schedule-block-two .date-box h4 {
   position: relative;
-  padding-top: 13px;
   font-size: 16px;
   line-height: 1.2em;
   color: #0b59de;
@@ -7533,6 +7535,7 @@ a.ui-button:active,
   padding-left: 95px;
   min-height: 70px;
   min-width: 280px;
+  
 }
 
 .schedule-block-two .speaker-info .tgx_image {
@@ -7540,6 +7543,7 @@ a.ui-button:active,
   position: absolute;
   top: -21px;
   right: -40px;
+
 }
 
 @media (max-width: 425px) {
@@ -10975,10 +10979,6 @@ Accordian Box
   margin-bottom: 30px;
 }
 
-.client-block-md{
-  width: 20% !important;
-}
-
 .client-block .image-box {
   position: relative;
   text-align: center;
@@ -10991,10 +10991,14 @@ Accordian Box
   -webkit-transition: all 500ms ease;
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sponsors-outer.gold .client-block .image-box {
-  min-height: 185px;
+  /* min-height: 185px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11016,6 +11020,8 @@ Accordian Box
   -webkit-transition: all 300ms ease;
   -o-transition: all 300ms ease;
   transition: all 300ms ease;
+  max-width: 90%;
+  max-height: 90%;
 }
 
 .client-block .image-box:hover img {

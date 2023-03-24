@@ -116,6 +116,8 @@
         font-size: 20px;
     }
 }
+/* end of Hero */
+
 
 /* title flag */
 
@@ -157,4 +159,133 @@
     transform: skew(25deg);
     font-size: 14px;
     padding: 0 15px;
+}
+/* end of title flag */
+
+/* schedule */
+.con-schedule {
+    display: flex;
+    border: 1px solid #ebebeb;
+    justify-content: space-between;
+    height: 114px;
+    margin-bottom: 10px;
+}
+.con-schedule.is-break {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90px;
+}
+.con-schedule.is-lunch {
+    background-image: url('./../images/background/lunch_bg.svg');
+}
+.con-schedule.is-finger {
+    background-image: url('./../images/background/finger_bg.svg');
+}
+.con-schedule__wrapper {
+    flex-basis: 80%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.con-schedule__date {
+    flex-basis: 30%;
+    font-size: 16px;
+    color: #0b59de;
+    font-weight: 700;
+}
+.con-schedule__info {
+    flex-basis: 70%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.con-schedule__info h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.con-schedule__corner {
+    flex-basis: 20%;
+    min-width: 170px;
+    position: relative;
+    overflow: hidden;
+}
+.con-schedule__img {
+    position: absolute;
+    height: 100%;
+    transform: skew(320deg);
+    overflow: hidden;
+    right: -55px;
+    min-width: 170px;
+}
+.con-schedule__img img {
+    transform: skew(40deg);
+    height: 100%;
+    position: relative;
+    left: -50px;
+}
+@media only screen and (max-width: 1023px) {
+    .con-schedule__wrapper {
+        flex-flow: column;
+        align-items: start;
+    }
+    .con-schedule__date, .con-schedule__info {
+        flex-basis: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .con-schedule {
+        margin-bottom: 20px;
+    }
+    .con-schedule__wrapper {
+        padding: 10px;
+    }
+    .con-schedule__info h3 {
+        font-size: 16px;
+    }
+}
+/* end of schedule */
+
+/* sponsors */
+.sponsors-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2%;
+    border: 1px solid red;
+}
+.sponsors-wrapper .sponsor-lg {
+   flex-basis: 23.5%;
+}
+.sponsors-wrapper .sponsor-md {
+    flex-basis: 18.8%;
+}
+.sponsors-wrapper .sponsor-sm {
+    flex-basis: 15%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .sponsors-wrapper .sponsor-lg {
+        flex-basis: 31.3%;
+     }
+     .sponsors-wrapper .sponsor-md {
+         flex-basis: 23.5%;
+     }
+     .sponsors-wrapper .sponsor-sm {
+         flex-basis: 18.8%;
+     }
+}
+@media only screen and (max-width: 768px) {
+    .sponsors-wrapper .sponsor-lg {
+        flex-basis: 80%;
+     }
+     .sponsors-wrapper .sponsor-md {
+         flex-basis: 47%;
+     }
+     .sponsors-wrapper .sponsor-sm {
+         flex-basis: 31.3%;
+     }
 }

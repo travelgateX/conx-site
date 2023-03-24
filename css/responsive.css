@@ -226,6 +226,7 @@
     visibility: hidden;
     opacity: 0;
   }
+
 }
 
 @media only screen and (max-width: 1023px) {
@@ -280,11 +281,7 @@
     background-image: none !important;
   }
 
-  .schedule-block-two .inner-box {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+
 
   .schedule-block-two .speaker-info,
   .schedule-block-two .date-box {
@@ -299,7 +296,7 @@
 
   .schedule-block-two .speaker-info,
   .schedule-block-two .speaker-info .thumb {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 
   .schedule-block-two h3 {

@@ -289,3 +289,88 @@
          flex-basis: 31.3%;
      }
 }
+
+/* end of sponsors */
+
+.con-schedule2 {
+    display: flex;
+    border: 1px solid #ebebeb;
+    justify-content: space-between;
+    height: 114px;
+    margin-bottom: 10px;
+}
+.con-schedule2.is-break {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90px;
+}
+.con-schedule2.is-lunch {
+    background-image: url('./../images/background/lunch_bg.svg');
+}
+.con-schedule2.is-finger {
+    background-image: url('./../images/background/finger_bg.svg');
+}
+.con-schedule2__wrapper {
+    flex-basis: 90%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    z-index: 1;
+    position: relative;
+}
+.con-schedule2__wrapper::after {
+    content: '';
+    width: 100px;
+    background: white;
+    transform: skew(320deg);
+    position: absolute;
+    right: -50px;
+    top: 0;
+    height: 100%;
+    
+}
+.con-schedule2__date {
+    flex-basis: 30%;
+    font-size: 16px;
+    color: #0b59de;
+    font-weight: 700;
+    z-index: 1;
+}
+.con-schedule2__info {
+    flex-basis: 70%;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    z-index: 1;
+}
+.con-schedule2__info h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.con-schedule2__img img {
+    height: 100%;
+}
+@media only screen and (max-width: 1023px) {
+    .con-schedule2__wrapper {
+        flex-flow: column;
+        align-items: start;
+    }
+    .con-schedule2__date, .con-schedule2__info {
+        flex-basis: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .con-schedule2 {
+        margin-bottom: 20px;
+    }
+    .con-schedule2__wrapper {
+        padding: 10px;
+    }
+    .con-schedule2__info h3 {
+        font-size: 16px;
+    }
+}

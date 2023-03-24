@@ -3530,6 +3530,7 @@ Page Title
 .sec-title {
   position: relative;
   margin-bottom: 60px;
+  text-align: right;
 }
 
 .sec-title .sub-title {
@@ -4523,6 +4524,7 @@ a.ui-button:active,
   color: #686868;
   font-size: 16px;
   font-weight: 400;
+  text-align: center;
 }
 
 .time-counter-three {
@@ -4540,6 +4542,7 @@ a.ui-button:active,
   -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
+  gap: 70px;
 }
 
 .time-countdown-two .counter-column {
@@ -4548,8 +4551,6 @@ a.ui-button:active,
   font-size: 18px;
   color: #9a9a9a;
   font-weight: 600;
-  margin-right: 50px;
-  padding-right: 50px;
 }
 
 .time-countdown-two .counter-column:last-child {
@@ -4561,25 +4562,21 @@ a.ui-button:active,
   display: none;
 }
 
-.time-countdown-two .counter-column:before {
-  position: absolute;
-  right: -5px;
-  top: 35px;
-  font-size: 36px;
-  color: #000000;
-  font-weight: 700;
-  content: ":";
-}
-
 .time-countdown-two .counter-column .count {
   position: relative;
   display: block;
   text-align: center;
-  font-size: 84px;
+  font-size: 78px;
   line-height: 1em;
   color: #000000;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  .time-countdown-two {
+    gap: 20px;
+  }
 }
 
 /***
@@ -4888,6 +4885,10 @@ a.ui-button:active,
   background: #f5b930;
 }
 
+.date-box-day2 {
+  order: 2;
+}
+
 .about-section-two .fact-counter-two {
   margin-left: 300px;
 }
@@ -4897,10 +4898,7 @@ a.ui-button:active,
 .fact-counter-two {
   position: relative;
   max-width: 770px;
-  background-image: url(../images/icons/counter-bg-2.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 100%;
+  background: #19CFBD;
   padding: 40px 0 0;
   z-index: 3;
 }
@@ -5030,7 +5028,7 @@ a.ui-button:active,
   margin-left: -120px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .info-box-one .inner-box {
     margin-left: 0;
   }
@@ -5120,6 +5118,7 @@ a.ui-button:active,
   padding: 20px;
   background-color: rgba(12, 35, 64, 0.7);
   border-radius: 2px;
+  height: 100%;
 }
 
 .zafiro-section .zafiro-hotel-link .hotel-name {

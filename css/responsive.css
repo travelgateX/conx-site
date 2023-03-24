@@ -368,7 +368,8 @@
   }
 
   .about-section-two .fact-counter-two {
-    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 50px;
   }
 
@@ -514,6 +515,14 @@
 
   .map-section .map-outer {
     padding: 0 !important;
+  }
+
+  .sec-title {
+    text-align: center;
+    padding: 0 30px;
+  }
+  .date-box-day2 {
+    order: 0;
   }
 }
 
@@ -721,11 +730,11 @@
   }
 
   .time-countdown-two .counter-column .count {
-    font-size: 42px;
+    font-size: 38px;
   }
 
   .time-countdown-two .counter-column:before {
-    font-size: 24px;
+    font-size: 30px;
     top: 0;
   }
 
@@ -821,6 +830,10 @@
 
   .comments-area .comment-box.reply-comment {
     margin-left: 0;
+  }
+
+  .date-box-day2 {
+    order: 0;
   }
 }
 
@@ -974,7 +987,7 @@
   }
 
   .date-box-outer {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     width: 100%;
   }
@@ -1100,7 +1113,7 @@
   }
 
   .time-countdown-two {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .time-countdown-two .counter-column:before {
@@ -1110,6 +1123,7 @@
   .time-countdown-two .counter-column {
     margin: 20px 0;
     padding: 0;
+    width: 50%;
   }
 
   .page-title {
@@ -1254,7 +1268,7 @@
   }
 
   .time-counter .time-countdown-two .counter-column .count {
-    font-size: 48px;
+    font-size: 40px;
     line-height: 1em;
     padding: 25px 0 5px;
   }

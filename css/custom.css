@@ -120,25 +120,41 @@
 /* title flag */
 
 .countdown-logo {
-    position: relative;
-    background: white;
     display: flex;
-    
+    justify-content: center;
+}
+.countdown-logo__wrapper {
+    background: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 170px;
+    padding: 40px;
+    z-index: 1;
+}
+.countdown-logo__wrapper img {
+    height: auto;
+    width: 200px;
 }
 
 .title-flag-vertical {
     transform: rotate(-90deg); 
-    width: 100%;  
+    position: absolute;
+    left: -90px;
+    bottom: 65px;
 }
 
 .title-flag-vertical__wrapper {
-    transform: skew(325deg);
-    background-color: #0b59de;  
+    transform: skew(335deg);
+    background-color: #0b59de;
+    padding: 5px 0;  
 }
 .title-flag-vertical__text {
-    
+    white-space: nowrap;
     color: white;
-    transform: skew(35deg);
+    transform: skew(25deg);
     font-size: 14px;
-    padding: 0 10px;
+    padding: 0 15px;
 }

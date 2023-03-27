@@ -19,7 +19,7 @@
 
   <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon" />
   <link rel="icon" href="images/favicon-16x16.png" type="image/x-icon" />
-  <link href="css/color-switcher-design.css" rel="stylesheet" />
+  <!-- <link href="css/color-switcher-design.css" rel="stylesheet" /> -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta property="og:url" content="http://con-x.travelgatex.com" />
   <meta property="og:type" content="website" />
@@ -222,17 +222,34 @@
       <!-- End Mobile Menu -->
     </header>
 
-    <section>
+    <section class="d-none d-md-block">
       <div class="con-hero">
         <div class="con-hero__img">
         </div>
         <div class="con-hero__wrapper">
-          <div class="con-hero__claim-wrapper"><div class="con-hero__claim">Con-X 2023: Uncut: Now it’s personal</div></div>
+          <div class="con-hero__claim-wrapper"><h1 class="con-hero__claim">Con-X 2023: Uncut: Now it’s personal</h1></div>
           <div class="con-hero__title"><h2>The travel industry comes together</h2></div>
           <div class="con-hero__features">
-            <div class="con-hero__feature"><i class="far fa-user"></i> 250+ Attendees</div>
-            <div class="con-hero__feature"><i class="far fa-calendar-alt"></i> 10 & 11 May, 2023</div>
-            <div class="con-hero__feature"><i class="fa fa-map-marker-alt"></i> Mallorca. Spain</div>
+            <div class="con-hero__feature wow zoomIn"><i class="far fa-user"></i> 250+ Attendees</div>
+            <div class="con-hero__feature wow zoomIn" data-wow-delay="600ms"><i class="far fa-calendar-alt"></i> 10 & 11 May, 2023</div>
+            <div class="con-hero__feature wow zoomIn" data-wow-delay="800ms"><i class="fa fa-map-marker-alt"></i> Mallorca. Spain</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="d-sm-block d-md-none">
+      <div class="con-hero--mobile">
+        <div class="con-hero__img">
+          <div class="con-hero__claim-wrapper"><h1 class="con-hero__claim">Con-X 2023: Uncut: Now it’s personal</h1></div>
+        </div>
+        <div class="con-hero__wrapper">
+          
+          <div class="con-hero__title"><h2>The travel industry comes together</h2></div>
+          <div class="con-hero__features">
+            <div class="con-hero__feature wow zoomIn"><i class="far fa-user"></i> 250+ Attendees</div>
+            <div class="con-hero__feature wow zoomIn" data-wow-delay="600ms"><i class="far fa-calendar-alt"></i> 10 & 11 May, 2023</div>
+            <div class="con-hero__feature wow zoomIn" data-wow-delay="800ms"><i class="fa fa-map-marker-alt"></i> Mallorca. Spain</div>
           </div>
         </div>
       </div>
@@ -288,7 +305,7 @@
             <div class="inner-column">
               <div class="sec-title">
                 <span class="sub-title">WELCOME TO CON-X 2023</span>
-                <h2>Uncut: Now it’s personal</h2>
+                <p class="display-6 fw-bold">Uncut: Now it’s personal</p>
                 <div class="text">
                   <b>"Uncut: Now it's personal"</b>, is the name of the
                   conference that opens the doors to inspiring personal
@@ -309,7 +326,15 @@
         </div>
         <div class="fact-counter-two">
           <div class="row clearfix">
-            <div class="counter-column col-lg-3 col-md-3 col-sm-6">
+            <div class="counter-column col-lg-3 col-md-3 col-sm-6 wow zoomIn" >
+              <div class="inner-box">
+                <div class="count-box">
+                  <span class="count-text" data-speed="3000" data-stop="2">0</span>
+                  <span class="counter-title">Locations</span>
+                </div>
+              </div>
+            </div>
+            <div class="counter-column col-lg-3 col-md-3 col-sm-6 wow zoomIn" data-wow-delay="300ms">
               <div class="inner-box">
                 <div class="count-box">
                   <span class="count-text" data-speed="3000" data-stop="200">0</span>
@@ -317,7 +342,7 @@
                 </div>
               </div>
             </div>
-            <div class="counter-column col-lg-3 col-md-3 col-sm-6" data-wow-delay="300ms">
+            <div class="counter-column col-lg-3 col-md-3 col-sm-6 wow zoomIn" data-wow-delay="600ms"">
               <div class="inner-box">
                 <div class="count-box">
                   <span class="count-text" data-speed="3000" data-stop="323">0</span>
@@ -325,19 +350,11 @@
                 </div>
               </div>
             </div>
-            <div class="counter-column col-lg-3 col-md-3 col-sm-6 wow zoomIn" data-wow-delay="600ms">
+            <div class="counter-column col-lg-3 col-md-3 col-sm-6 wow zoomIn" data-wow-delay="900ms">
               <div class="inner-box">
                 <div class="count-box">
                   <span class="count-text" data-speed="3000" data-stop="1000.000">0</span>
                   <span class="counter-title">Mettings</span>
-                </div>
-              </div>
-            </div>
-            <div class="counter-column col-lg-3 col-md-3 col-sm-6 wow zoomIn" data-wow-delay="900ms">
-              <div class="inner-box">
-                <div class="count-box">
-                  <span class="count-text" data-speed="3000" data-stop="2">0</span>
-                  <span class="counter-title">Locations</span>
                 </div>
               </div>
             </div>
@@ -353,7 +370,7 @@
           </div>
           <div class="info-box-one order-2">
             <div class="inner-box">
-              <h4>The world's most exclusive travel distribution events</h4>
+              <h3 class="text-white display-6"><strong>The world's most exclusive travel distribution events</strong></h3>
               <p class="mb-0">
                 Con-X is a handcrafted and by invitation only all day
                 conference and networking event limited to 250 C-Level
@@ -440,7 +457,7 @@
 
         <div class="row">
           <div class="sec-title light text-center">
-            <h2 class="text-white">Master of Ceremonies</h2>
+            <p class="text-white display-6 fw-bold">Master of Ceremonies</p>
           </div>
 
           <div class="d-flex justify-content-center">
@@ -471,7 +488,7 @@
         <div class="row">
 
           <div class="sec-title light text-center">
-            <h2 class="text-white">Spearkers who are experts in their fields</h2>
+            <p class="text-white display-6 fw-bold">Spearkers who are experts in their fields</p>
           </div>
 
           <div class="speaker-block-two col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
@@ -654,19 +671,11 @@
                 <figure class="image image-2">
                   <a href="javascript:void(0)"><img src="images/speakers/2023/avatar.jpg" alt="Avatar" /></a>
                 </figure>
-                <!-- <span class="plus-icon fa fa-plus"></span>
-                <div class="social-links">
-                  <a href="#"><i class="fab fa-dribbble"></i></a>
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                </div> -->
               </div>
               <div class="info-box">
-                <h4 class="name">
+                <p class="name">
                   <a href="javascript:void(0)">Speaker Coming Soon</a>
-                </h4>
-                <!-- <span class="designation">Lorem ipsum</span> -->
+                </p>
               </div>
             </div>
           </div>
@@ -677,19 +686,11 @@
                 <figure class="image image-2">
                   <a href="javascript:void(0)"><img src="images/speakers/2023/avatar.jpg" alt="Avatar" /></a>
                 </figure>
-                <!-- <span class="plus-icon fa fa-plus"></span>
-                <div class="social-links">
-                  <a href="#"><i class="fab fa-dribbble"></i></a>
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                </div> -->
               </div>
               <div class="info-box">
-                <h4 class="name">
+                <p class="name">
                   <a href="javascript:void(0)">Speaker Coming Soon</a>
-                </h4>
-                <!-- <span class="designation">Lorem ipsum</span> -->
+                </p>
               </div>
             </div>
           </div>
@@ -700,19 +701,11 @@
                 <figure class="image image-2">
                   <a href="javascript:void(0)"><img src="images/speakers/2023/avatar.jpg" alt="Avatar" /></a>
                 </figure>
-                <!-- <span class="plus-icon fa fa-plus"></span>
-                <div class="social-links">
-                  <a href="#"><i class="fab fa-dribbble"></i></a>
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                </div> -->
               </div>
               <div class="info-box">
-                <h4 class="name">
+                <p class="name">
                   <a href="javascript:void(0)">Speaker Coming Soon</a>
-                </h4>
-                <!-- <span class="designation">Lorem ipsum</span> -->
+                </p>
               </div>
             </div>
           </div>
@@ -723,19 +716,11 @@
                 <figure class="image image-2">
                   <a href="javascript:void(0)"><img src="images/speakers/2023/avatar.jpg" alt="Avatar" /></a>
                 </figure>
-                <!-- <span class="plus-icon fa fa-plus"></span>
-                <div class="social-links">
-                  <a href="#"><i class="fab fa-dribbble"></i></a>
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                </div> -->
               </div>
               <div class="info-box">
-                <h4 class="name">
+                <p class="name">
                   <a href="javascript:void(0)">Speaker Coming Soon</a>
-                </h4>
-                <!-- <span class="designation">Lorem ipsum</span> -->
+                </p>
               </div>
             </div>
           </div>
@@ -808,33 +793,29 @@
             <!--Tab-->
             <div class="tab" id="tab-1">
               <div class="schedule-timeline">
-                <div class="con-schedule">
+                <div class="con-schedule wow fadeInUp">
                   <div class="con-schedule__wrapper">
                     <div class="con-schedule__date">19:00 pm - 19:30 pm</div>
                     <div class="con-schedule__info">
-                      <h3>Welcome Hotel Zafiro Palmanova Palace.</h3>
-                      <img style="height: 60px" src="./images/logos/past_sponsors/zafiro_logo.png" alt="Zafiro logo" />
+                      <h4>Welcome Hotel Zafiro Palmanova Palace.</h4>
+                      <img style="height: 40px;margin: -10px 0;" src="./images/logos/past_sponsors/zafiro_logo.png" alt="Zafiro logo" />
                     </div>
                   </div>
-                  <div class="con-schedule__corner">
-                    <div class="con-schedule__img">
-                      <img src="./images/gallery/pre_event_agenda/pre_event_5.png" alt="Con-X 2022" />
-                    </div>
+                  <div class="con-schedule__img">
+                    <img src="./images/gallery/pre_event_agenda/pre_event_5.png" alt="Con-X 2022" />
                   </div>
                 </div>
 
-                <div class="con-schedule">
+                <div class="con-schedule wow fadeInUp">
                   <div class="con-schedule__wrapper">
                     <div class="con-schedule__date">19:30 pm - 22:00 pm</div>
                     <div class="con-schedule__info">
-                      <h3>Start Finger Food & networking at La <br>Veranda - Zafiro Hotel.</h3>
-                      <img style="height: 60px" src="./images/logos/past_sponsors/zafiro_logo.png" alt="Zafiro logo" />
+                      <h4>Start Finger Food & networking at La <br>Veranda - Zafiro Hotel.</h4>
+                      <img style="height: 40px;margin: -10px 0;" src="./images/logos/past_sponsors/zafiro_logo.png" alt="Zafiro logo" />
                     </div>
                   </div>
-                  <div class="con-schedule__corner">
-                    <div class="con-schedule__img">
-                      <img src="./images/gallery/pre_event_agenda/pre_event_4.png" alt="Con-X 2022" />
-                    </div>
+                  <div class="con-schedule__img">
+                    <img src="./images/gallery/pre_event_agenda/pre_event_4.png" alt="Con-X 2022" />
                   </div>
                 </div>
               </div>
@@ -843,210 +824,169 @@
             <!--Tab-->
             <div class="tab active-tab" id="tab-2">
               <div class="schedule-timeline">
-
-                <div class="con-schedule2">
-                  <div class="con-schedule2__wrapper">
-                    <div class="con-schedule2__date">09:00 am - 09:40 am</div>
-                    <div class="con-schedule2__info">
-                      <h3>Registration and welcome coffee. Sponsored by</h3>
-                      <img style="height: 50px" src="./images/logos/silver/fastly_logo.png" alt="Fastly logo" />
+                <div class="con-schedule wow fadeInUp">
+                  <div class="con-schedule__wrapper">
+                    <div class="con-schedule__date">09:00 am - 09:40 am</div>
+                    <div class="con-schedule__info">
+                      <h4>Registration and welcome coffee. Sponsored by</h4>
+                      <img style="height: 40px;margin: -15px 0;" src="./images/logos/silver/fastly_logo.png" alt="Fastly logo" />
                     </div>
                   </div>
-                  <div class="con-schedule2__img">
+                  <div class="con-schedule__img">
                     <img src="./images/gallery/conx_2022_agenda/conx_2022_13.png" alt="Con-X 2022" />
                   </div>
                 </div>
 
-
-
-
-                <div class="con-schedule">
-                  <div class="con-schedule__wrapper">
-                    <div class="con-schedule__date">09:00 am - 09:40 am</div>
-                    <div class="con-schedule__info">
-                      <h3>Registration and welcome coffee. Sponsored by</h3>
-                      <img style="height: 50px" src="./images/logos/silver/fastly_logo.png" alt="Fastly logo" />
-                    </div>
-                  </div>
-                  <div class="con-schedule__corner">
-                    <div class="con-schedule__img">
-                      <img src="./images/gallery/conx_2022_agenda/conx_2022_13.png" alt="Con-X 2022" />
-                    </div>
-                  </div>
-                </div>
-
-                <div class="con-schedule">
+                <div class="con-schedule wow fadeInUp">
                   <div class="con-schedule__wrapper">
                     <div class="con-schedule__date">09:40 am - 10:00 am</div>
                     <div class="con-schedule__info">
-                      <h3>Welcome by Christian Kremers (MOC) and Pedro Camara - CEO & founder TravelgateX</h3>
+                      <h4>Welcome by Christian Kremers (MOC) and Pedro Camara - CEO & founder TravelgateX</h4>
                     </div>
                   </div>
-                  <div class="con-schedule__corner">
-                    <div class="con-schedule__img">
-                      <img src="./images/gallery/conx_2022_agenda/conx_2022_12.png" alt="Con-X 2022" />
-                    </div>
+                  <div class="con-schedule__img">
+                    <img src="./images/gallery/conx_2022_agenda/conx_2022_12.png" alt="Con-X 2022" />
                   </div>
                 </div>
 
-                <div class="con-schedule">
+                <div class="con-schedule wow fadeInUp">
                   <div class="con-schedule__wrapper">
                     <div class="con-schedule__date">10:00 am - 10:30 am</div>
                     <div class="con-schedule__info">
-                      <h3>Keynote speaker: Gerd Leonhard.<br>Personalization, AI and future trends</h3>
+                      <h4>Keynote speaker: Gerd Leonhard.<br>Personalization, AI and future trends</h4>
                     </div>
                   </div>
-                  <div class="con-schedule__corner">
-                    <div class="con-schedule__img">
-                      <img src="./images/gallery/conx_2022_agenda/conx_2022_11.png" alt="Con-X 2022" />
-                    </div>
+                  <div class="con-schedule__img">
+                    <img src="./images/gallery/conx_2022_agenda/conx_2022_11.png" alt="Con-X 2022" />
                   </div>
                 </div>
 
-                <div class="con-schedule">
+                <div class="con-schedule wow fadeInUp">
                   <div class="con-schedule__wrapper">
                     <div class="con-schedule__date">10:30 am - 11:00 am</div>
                     <div class="con-schedule__info">
-                      <h3>Executive Panel: Discussion on AI Adoption</h3>
+                      <h4>Executive Panel: Discussion on AI Adoption</h4>
                       <img style="height: 30px" src="./images/logos/other_logos/Stuba Logo - High Resolution Format.jpg" alt="Stuba logo" />
                     </div>
                   </div>
-                  <div class="con-schedule__corner">
-                    <div class="con-schedule__img">
-                      <img src="./images/gallery/conx_2022_agenda/conx_2022_10.png" alt="Con-X 2022" />
-                    </div>
+                  <div class="con-schedule__img">
+                    <img src="./images/gallery/conx_2022_agenda/conx_2022_10.png" alt="Con-X 2022" />
                   </div>
                 </div>
 
-                <div class="con-schedule">
+                <div class="con-schedule wow fadeInUp">
                   <div class="con-schedule__wrapper">
                     <div class="con-schedule__date">11:00 am - 11:40 am</div>
                     <div class="con-schedule__info">
-                      <h3>Travel Industry and market trends. Wouter Geerts SKIFT</h3>
+                      <h4>Travel Industry and market trends. Wouter Geerts SKIFT</h4>
                     </div>
                   </div>
-                  <div class="con-schedule__corner">
-                    <div class="con-schedule__img">
-                      <img src="./images/gallery/conx_2022_agenda/conx_2022_9.png" alt="Con-X 2022" />
-                    </div>
+                  <div class="con-schedule__img">
+                    <img src="./images/gallery/conx_2022_agenda/conx_2022_9.png" alt="Con-X 2022" />
                   </div>
                 </div>
 
-                <div class="con-schedule">
+                <div class="con-schedule wow fadeInUp">
                   <div class="con-schedule__wrapper">
                     <div class="con-schedule__date">11:40 am - 12:30 pm</div>
                     <div class="con-schedule__info">
-                      <h3>Coffee Break. Sponsored by</h3>
-                      <img style="height: 50px" src="./images/logos/silver/fastly_logo.png" alt="Fastly logo" />
+                      <h4>Coffee Break. Sponsored by</h4>
+                      <img style="height: 40px;margin: -15px 0;" src="./images/logos/silver/fastly_logo.png" alt="Fastly logo" />
                     </div>
                   </div>
-                  <div class="con-schedule__corner">
-                    <div class="con-schedule__img">
-                      <img src="./images/gallery/conx_2022_agenda/conx_2022_8.png" alt="Con-X 2022" />
-                    </div>
+                  <div class="con-schedule__img">
+                    <img src="./images/gallery/conx_2022_agenda/conx_2022_8.png" alt="Con-X 2022" />
                   </div>
                 </div>
 
-                <div class="con-schedule">
+                <div class="con-schedule wow fadeInUp">
                   <div class="con-schedule__wrapper">
                     <div class="con-schedule__date">12:30 pm - 13:10 pm</div>
                     <div class="con-schedule__info">
-                      <h3>Executive Panel - Venture investments trends in travel</h3>
-                      <img style="height: 50px" src="./images/logos/silver/tbo_logo.png" alt="TBO logo" />
+                      <h4>Executive Panel - Venture investments trends in travel</h4>
+                      <img style="height: 50px;margin: -15px 0;" src="./images/logos/silver/tbo_logo.png" alt="TBO logo" />
                     </div>
                   </div>
-                  <div class="con-schedule__corner">
-                    <div class="con-schedule__img">
-                      <img src="./images/gallery/conx_2022_agenda/conx_2022_7.png" alt="Con-X 2022" />
-                    </div>
+                  <div class="con-schedule__img">
+                    <img src="./images/gallery/conx_2022_agenda/conx_2022_7.png" alt="Con-X 2022" />
                   </div>
                 </div>
 
-                <div class="con-schedule">
+                <div class="con-schedule wow fadeInUp">
                   <div class="con-schedule__wrapper">
                     <div class="con-schedule__date">13:10 pm - 13:40 pm</div>
                     <div class="con-schedule__info">
-                      <h3>Inspirational talk</h3>
+                      <h4>Inspirational talk</h4>
                     </div>
                   </div>
-                  <div class="con-schedule__corner">
                     <div class="con-schedule__img">
                       <img src="./images/resource/agenda/conx_2022_rakuten.png" alt="Con-X 2022" />
                     </div>
-                  </div>
                 </div>
 
-                <div class="con-schedule">
+                <div class="con-schedule wow fadeInUp">
                   <div class="con-schedule__wrapper">
                     <div class="con-schedule__date">13:40 pm - 13:50 pm</div>
                     <div class="con-schedule__info">
-                      <h3>Conference Closing and family picture with speakers & sponsors</h3>
+                      <h4>Conference Closing and family picture with speakers & sponsors</h4>
                     </div>
                   </div>
-                  <div class="con-schedule__corner">
-                    <div class="con-schedule__img">
-                      <img src="./images/gallery/conx_2022_agenda/conx_2022_5.png" alt="Con-X 2022" />
-                    </div>
+                  <div class="con-schedule__img">
+                    <img src="./images/gallery/conx_2022_agenda/conx_2022_5.png" alt="Con-X 2022" />
                   </div>
                 </div>
 
-                <div class="con-schedule is-break is-lunch">
+                <div class="con-schedule is-break is-lunch wow fadeInUp">
                   <div class="con-schedule__wrapper ">
                     <div class="con-schedule__date">13:50 pm - 15:35 pm</div>
                     <div class="con-schedule__info">
-                      <h3>Lunch.</h3>
+                      <h4>Lunch.</h4>
                     </div>
                   </div>
                 </div>
 
-                <div class="con-schedule">
+                <div class="con-schedule wow fadeInUp">
                   <div class="con-schedule__wrapper">
                     <div class="con-schedule__date">15:35 pm - 18:30 pm</div>
                     <div class="con-schedule__info">
-                      <h3>Travelgate X networking sessions (121 meetings)</h3>
+                      <h4>Travelgate X networking sessions (121 meetings)</h4>
                     </div>
                   </div>
-                  <div class="con-schedule__corner">
-                    <div class="con-schedule__img">
-                      <img src="./images/gallery/conx_2022_agenda/conx_2022_3.png" alt="Con-X 2022" />
-                    </div>
+                  <div class="con-schedule__img">
+                    <img src="./images/gallery/conx_2022_agenda/conx_2022_3.png" alt="Con-X 2022" />
                   </div>
                 </div>
 
-                <div class="con-schedule">
+                <div class="con-schedule wow fadeInUp">
                   <div class="con-schedule__wrapper">
                     <div class="con-schedule__date">18:30 pm - 18:50 pm</div>
                     <div class="con-schedule__info">
-                      <h3>Pre dinner - Chillout accorn-ed iberian ham and manzanilla tasting</h3>
+                      <h4>Pre dinner - Chillout accorn-ed iberian ham and manzanilla tasting</h4>
                     </div>
                   </div>
-                  <div class="con-schedule__corner">
-                    <div class="con-schedule__img">
-                      <img src="./images/gallery/conx_2022_agenda/conx_2022_2.png" alt="Con-X 2022" />
-                    </div>
+                  <div class="con-schedule__img">
+                    <img src="./images/gallery/conx_2022_agenda/conx_2022_2.png" alt="Con-X 2022" />
                   </div>
                 </div>
                 
-                <div class="con-schedule is-break is-finger">
+                <div class="con-schedule is-break is-finger wow fadeInUp">
                   <div class="con-schedule__wrapper ">
                     <div class="con-schedule__date">18:50 pm - 20:45 pm</div>
                     <div class="con-schedule__info">
-                      <h3>Finger food and drinks.</h3>
+                      <h4>Finger food and drinks.</h4>
                     </div>
                   </div>
                 </div>
 
-                <div class="con-schedule">
+                <div class="con-schedule wow fadeInUp">
                   <div class="con-schedule__wrapper">
                     <div class="con-schedule__date">20:45 pm - 21:00 pm</div>
                     <div class="con-schedule__info">
-                      <h3>Closing / Back to Palma.</h3>
+                      <h4>Closing / Back to Palma.</h4>
                     </div>
                   </div>
-                  <div class="con-schedule__corner">
-                    <div class="con-schedule__img">
-                      <img src="./images/gallery/conx_2022_agenda/conx_2022_1.png" alt="Con-X 2022" />
-                    </div>
+                  <div class="con-schedule__img">
+                    <img src="./images/gallery/conx_2022_agenda/conx_2022_1.png" alt="Con-X 2022" />
                   </div>
                 </div>
               </div>
@@ -1197,7 +1137,7 @@
                 <div class="client-block sponsor-sm wow fadeInRight" data-bs-toggle="tooltip"
                   data-bs-placement="top" title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts. Contact us (events@travelgate.com) now for a Sponsorship Kit.">
                   <figure class="image-box">
-                    <img class="p-3" src="images/logos/bronze/weh_logo.png" alt="Within Earth" />
+                    <img class="p-3 sm-p-1" src="images/logos/bronze/weh_logo.png" alt="Within Earth" />
                   </figure>
                 </div>
             </div>
@@ -1222,65 +1162,32 @@
           <!-- Title Column -->
           <div class="title-column col-12">
             <!-- LG -->
-            <div class="sponsors-outer gold">
-              <div class="row justify-content-center">
-                <!-- Client Block -->
-                <div class="client-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="300ms">
-                  <figure class="image-box">
-                    <img class="p-3" src="images/logos/media_partners/efe_logo.png" alt="Efe" />
-                  </figure>
-                </div>
+            <div class="sponsors-outer sponsors-wrapper">
+              <div class="client-block sponsor-lg wow fadeInRight" data-wow-delay="300ms">
+                <figure class="image-box">
+                  <img class="p-3" src="images/logos/media_partners/efe_logo.png" alt="Efe" />
+                </figure>
               </div>
             </div>
             <!-- MD -->
-            <div class="sponsors-outer">
-              <div class="row justify-content-center">
-                <!-- Client Block -->
-                <div class="client-block col-lg-3 col-md-6 col-sm-12 wow fadeInRight" data-bs-toggle="tooltip"
-                  data-bs-placement="top" title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts.
-                                Contact us (events@travelgate.com) now for a Sponsorship Kit.">
-                  <figure class="image-box">
-                    <img class="p-3" src="images/logos/media_partners/ladevi_logo.png" alt="Fastly" />
-                  </figure>
-                </div>
-                <!-- Client Block -->
-                <div class="client-block col-lg-3 col-md-6 col-sm-12 wow fadeInRight" data-bs-toggle="tooltip"
-                  data-bs-placement="top" title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts.
-                                                Contact us (events@travelgate.com) now for a Sponsorship Kit.">
-                  <figure class="image-box">
-                    <img class="p-3" src="images/logos/media_partners/smartravel_logo.png" alt="Smartravel" />
-                  </figure>
-                </div>
-                <!-- Client Block -->
-                <div class="client-block col-lg-3 col-md-6 col-sm-12 wow fadeInRight" data-bs-toggle="tooltip"
-                  data-bs-placement="top"
-                  title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts.
-                                                              Contact us (events@travelgate.com) now for a Sponsorship Kit.">
-                  <figure class="image-box">
-                    <img class="p-3" src="images/logos/media_partners/hoteltour_logo.png" alt="Hoteltour" />
-                  </figure>
-                </div>
+            <div class="sponsors-outer sponsors-wrapper">
+              <div class="client-block sponsor-md wow fadeInRight" data-wow-delay="300ms" title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts.
+              Contact us (events@travelgate.com) now for a Sponsorship Kit.">
+                <figure class="image-box">
+                  <img class="p-3" src="images/logos/media_partners/ladevi_logo.png" alt="Ladevi" />
+                </figure>
               </div>
-            </div>
-            <!-- SM -->
-            <div class="sponsors-outer">
-              <div class="row">
-                <!-- Client Block -->
-                <!-- <div
-                    class="client-block col-lg-2 col-md-6 col-sm-12 wow fadeInRight"
-                    data-bs-toggle="tooltip"
-                    data-bs-placement="top"
-                    title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts.
-                                                        Contact us (events@travelgate.com) now for a Sponsorship Kit."
-                  >
-                    <figure class="image-box">
-                      <img
-                        class="p-2"
-                        src="images/logos/past_sponsors/logo_interrias.png"
-                        alt="Interrias"
-                      />
-                    </figure>
-                  </div> -->
+              <div class="client-block sponsor-md wow fadeInRight" data-wow-delay="300ms" title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts.
+              Contact us (events@travelgate.com) now for a Sponsorship Kit.">
+                <figure class="image-box">
+                  <img class="p-3" src="images/logos/media_partners/smartravel_logo.png" alt="Smartravel" />
+                </figure>
+              </div>
+              <div class="client-block sponsor-md wow fadeInRight" data-wow-delay="300ms" title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts.
+              Contact us (events@travelgate.com) now for a Sponsorship Kit.">
+                <figure class="image-box">
+                  <img class="p-3" src="images/logos/media_partners/hoteltour_logo.png" alt="Hoteltour" />
+                </figure>
               </div>
             </div>
           </div>
@@ -1354,9 +1261,7 @@
         </div>
       </div>
     </section>
-    <!-- End Gallery Section -->
 
-    <!-- Video Section Two-->
     <section class="pricing-section-two video-section">
       <div class="auto-container">
         <div class="sec-title text-center">
@@ -1364,7 +1269,6 @@
         </div>
 
         <div class="row">
-          <!-- Pricing block -->
           <div class="pricing-block-two col-lg-4 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
             <h5 class="mb-3">Con-X 2022 Pre-event by Travolution</h5>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/mOfdQ9M6ysM"
@@ -1509,10 +1413,10 @@
   <div class="scroll-to-top scroll-to-target" data-target="html">
     <span class="fa fa-angle-up"></span>
   </div>
-
+  <!-- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script> -->
   <script src="js/jquery.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <!-- <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script> -->
   <script src="js/jquery-ui.js"></script>
   <script src="js/jquery.fancybox.js"></script>
   <script src="js/jquery.countdown.js"></script>

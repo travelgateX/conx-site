@@ -2869,7 +2869,7 @@ hr {
 
 .mobile-menu .navigation li:hover > a,
 .mobile-menu .navigation li.current > a {
-  color: #e1137b;
+  color: #0b59de;
 }
 
 .mobile-menu .navigation li.dropdown .dropdown-btn {
@@ -9969,7 +9969,7 @@ Accordian Box
 }
 
 .sidebar .search-box .form-group button:hover {
-  color: #e1137b;
+  color: #0b59de;
 }
 
 /* Blog Categories */

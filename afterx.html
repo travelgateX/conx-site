@@ -8,6 +8,7 @@
   <link href="css/bootstrap.min.css" rel="stylesheet" />
   <link href="css/tgx-style.css" rel="stylesheet" />
   <link href="css/responsive.css" rel="stylesheet" />
+  <link href="css/custom.css" rel="stylesheet" />
   <link href="plugins/revolution/css/settings.css" rel="stylesheet" type="text/css" />
   <link href="plugins/revolution/css/layers.css" rel="stylesheet" type="text/css" />
   <link href="plugins/revolution/css/navigation.css" rel="stylesheet" type="text/css" />
@@ -223,36 +224,36 @@
     <!--End Main Header -->
 
     <!-- Banner Section -->
-    <section class="banner-section afterx-banner-section">
-      <div class="banner-carousel owl-carousel owl-theme">
-        <!-- Slide Item -->
-        <div class="slide-item" style="background-image: url(images/background/afterx_hero_banner2.png)">
-          <div class="auto-container">
-            <div class="content-box">
-              <h2 class="animate-2 text-start">An epic Travelgate<br> networking day</h2>
-              <span class="title animate-1 text-start">Don't miss out on the biggest travel networking<br> event of the
-                year </span>
-              <div class="text animate-3 pt-5 mt-5">
-                <ul class="info-list-two justify-content-start align-items-start flex-md-row flex-column">
-                  <li class="mb-mb-0 mb-4">
-                    <i class="far fa-calendar-alt"></i> 11 May, 2023
-                  </li>
-                  <li>
-                    <i class="fa fa-map-marker-alt"></i> Nikki Beach, Mallorca, Spain
-                  </li>
-                </ul>
-              </div>
-              <!-- <div class="d-flex align-items-center position-relative mt-5 mt-md-0">
-                <a href="javascript:void(0)" class="btn btn-primary rounded-1 px-4 py-3 disabled">Get your ticket here
-                  <i class="fa-regular fa-angle-right ms-2"></i></a>
-                <img src="images/resource/coming_soon.png" class="coming_soon hero_coming">
-              </div> -->
-            </div>
+    <section class="d-none d-md-block">
+      <div class="afterx-hero">
+        <div class="auto-container">
+        <div class="afterx-hero__wrapper">
+          <div class="afterx-hero__claim-wrapper"><h1 class="afterx-hero__claim">An epic Travelgate networking day</h1></div>
+          <div class="afterx-hero__title"><h2>Don’t miss out on the biggest travel networking event of the year</h2></div>
+          <div class="afterx-hero__features">
+            <div class="afterx-hero__feature wow zoomIn" data-wow-delay="600ms"><i class="far fa-calendar-alt"></i>11 May, 2023</div>
+            <div class="afterx-hero__feature wow zoomIn" data-wow-delay="800ms"><i class="fa fa-map-marker-alt"></i>Nikki Beach, Mallorca, Spain</div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- End Banner Section -->
+    <section class="d-sm-block d-md-none">
+      <div class="afterx-hero--mobile">
+        <div class="afterx-hero__img">
+          
+        </div>
+        <div class="afterx-hero__wrapper">
+          <div class="afterx-hero__claim-wrapper"><h1 class="afterx-hero__claim">An epic Travelgate networking day</h1></div>
+          <div class="afterx-hero__title"><h2>Don’t miss out on the biggest travel networking event of the year</h2></div>
+          <div class="afterx-hero__features">
+            <div class="afterx-hero__feature wow zoomIn" data-wow-delay="600ms"><i class="far fa-calendar-alt"></i> 11 May, 2023</div>
+            <div class="afterx-hero__feature wow zoomIn" data-wow-delay="800ms"><i class="fa fa-map-marker-alt"></i> Nikki Beach, Mallorca, Spain</div>
           </div>
         </div>
       </div>
     </section>
-    <!-- End Banner Section -->
 
     <!-- About Section Three-->
     <section class="about-section-three afterx-section-about" id="about">
@@ -291,11 +292,6 @@
                   Join TeamX in the exceptional Nikki Beach location on May 11, 2023 from 13:30 until 00:00 for a full
                   day of networking, great music, and irresistible food and drinks.
                 </div>
-                <!-- <div class="d-flex align-items-center position-relative mt-4">
-                  <a href="javascript:void(0)" class="btn btn-primary rounded-1 px-4 py-3 disabled">Get your ticket here
-                    <i class="fa-regular fa-angle-right ms-2"></i></a>
-                  <img src="images/resource/coming_soon.png" class="coming_soon coming_about">
-                </div> -->
               </div>
             </div>
           </div>
@@ -334,16 +330,6 @@
 
         <div class="schedule-tabs tabs-box">
           <div class="btns-box">
-            <!--Tabs Box-->
-            <!-- <ul class="tab-buttons clearfix">
-              <li class="tab-btn active-btn" data-tab="#tab-1">
-                <span class="day">1st Day</span>
-                <div class="date-box">
-                  <span class="date">25</span>
-                  <span class="month"><span class="colored">Jan</span> 2022</span>
-                </div>
-              </li>
-            </ul> -->
           </div>
           <div class="tabs-content">
             <!--Tab-->
@@ -357,12 +343,7 @@
                         <span>13.00 pm <br> 14.00 pm</span>
                       </div>
                       <div class="speaker-info">
-                        <!-- <figure class="thumb">
-                          <img src="images/resource/thumb-1.jpg" alt="">
-                        </figure> -->
-                        <!-- <span class="icon fa fa-microphone"></span> -->
                         <h5 class="name">Welcome</h5>
-                        <!-- <span class="designation">Historian</span> -->
                       </div>
                       <h4>Stop by the registration desk and grab your lanyard.</h4>
                     </div>
@@ -504,153 +485,103 @@
     <section class="clients-section" id="sponsor">
       <div class="auto-container">
         <div class="row">
-          <!-- Title Column -->
-          <div class="title-column col-xl-3 col-lg-4 col-md-12">
+          <div class="title-column col-xl-12 col-lg-12 col-md-12">
             <div class="sec-title">
-              <span class="sub-title">SPONSORS</span>
-              <h2>Official <br />Sponsors</h2>
-              <div class="text">
-                Play a huge part in this exclusive<br />
+              <span class="sub-title text-center">SPONSORS</span>
+              <h2 class="text-center">Official Sponsors</h2>
+              <div class="text text-center">
+                Play a huge part in this exclusive
                 event and see your brand shine.
               </div>
-              <!-- <a href="contact.html" class="theme-btn btn-style-one mt-4"><span class="btn-title">Buy
-                                        Ticket</span></a> -->
             </div>
           </div>
 
           <!-- Title Column -->
-          <div class="title-column col-xl-9 col-lg-8 col-md-12">
+          <div class="title-column col-xl-12 col-lg-12 col-md-12">
             <!-- LG -->
-            <div class="sponsors-outer gold">
-              <div class="row">
-                <!-- Client Block -->
-                <div class="client-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="300ms">
-                  <figure class="image-box">
-                    <img class="p-2" src="images/logos/other_logos/methabook_logo.png" alt="Methabook" />
-                  </figure>
-                </div>
-                <!-- Client Block -->
-                <div class="client-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="300ms">
-                  <figure class="image-box">
-                    <img class="p-2" src="images/logos/silver/peak_logo.png" alt="Peak" />
-                  </figure>
-                </div>
-                <!-- Client Block -->
-                <div class="client-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="300ms">
-                  <figure class="image-box">
-                    <img class="p-2" src="images/logos/silver/logo_giata.png" alt="Giata" />
-                  </figure>
-                </div>
-                <!-- Client Block -->
-                <div class="client-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="300ms">
-                  <figure class="image-box">
-                    <img class="p-2" src="./images/logos/other_logos/Stuba Logo - High Resolution Format.jpg"
-                      alt="Stuba" />
-                  </figure>
-                </div>
-                <!-- Client Block -->
-                <div class="client-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="300ms">
-                  <figure class="image-box">
-                    <img class="p-2" src="./images/logos/silver/didatravel_logo.png" alt="Didatravel" />
-                  </figure>
-                </div>
-                <!-- Client Block -->
-                <div class="client-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="300ms">
-                  <figure class="image-box">
-                    <img class="p-2" src="./images/logos/silver/bedsopia_logo.png" alt="Bedsopia" />
-                  </figure>
-                </div>
-                <!-- Client Block -->
-                <div class="client-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="300ms">
-                  <figure class="image-box">
-                    <img class="p-2" src="./images/logos/silver/primetravel_logo.png" alt="Primetravel" />
-                  </figure>
-                </div>
-                <!-- Client Block -->
-                <div class="client-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="300ms">
-                  <figure class="image-box">
-                    <img class="p-2" src="./images/logos/silver/welcomebeds_logo.png" alt="Welcomebeds" />
-                  </figure>
-                </div>
-                <!-- Client Block -->
-                <div class="client-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="300ms">
-                  <figure class="image-box">
-                    <img class="p-2" src="./images/logos/past_sponsors/zafiro_logo.png" alt="Zafiro hotels" />
-                  </figure>
-                </div>
-                <!-- Client Block -->
-                <div class="client-block col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-delay="300ms">
-                  <figure class="image-box">
-                    <img class="p-2" src="./images/logos/silver/tbo_logo.png" alt="TBO" />
-                  </figure>
-                </div>
+            <div class="sponsors-outer sponsors-wrapper">
+              <div class="client-block sponsor-lg wow fadeInRight" data-wow-delay="300ms">
+                <figure class="image-box">
+                  <img class="p-3" src="./images/logos/other_logos/methabook_logo.png" alt="Methabook" />
+                </figure>
+              </div>
+              <div class="client-block sponsor-lg wow fadeInRight" data-wow-delay="300ms">
+                <figure class="image-box">
+                  <img class="p-3" src="./images/logos/silver/peak_logo.png" alt="Peak" />
+                </figure>
+              </div>
+              <div class="client-block sponsor-lg wow fadeInRight" data-wow-delay="300ms">
+                <figure class="image-box">
+                  <img class="p-3" src="./images/logos/silver/logo_giata.png" alt="Giata" />
+                </figure>
+              </div>
+              <div class="client-block sponsor-lg wow fadeInRight" data-wow-delay="300ms">
+                <figure class="image-box">
+                  <img class="p-3" src="./images/logos/other_logos/Stuba Logo - High Resolution Format.jpg"
+                    alt="Stuba" />
+                </figure>
+              </div>
+              <div class="client-block sponsor-lg wow fadeInRight" data-wow-delay="300ms">
+                <figure class="image-box">
+                  <img class="p-3" src="./images/logos/silver/didatravel_logo.png" alt="Didatravel" />
+                </figure>
+              </div>
+              <div class="client-block sponsor-lg wow fadeInRight" data-wow-delay="300ms">
+                <figure class="image-box">
+                  <img class="p-3" src="./images/logos/silver/bedsopia_logo.png" alt="Bedsopia" />
+                </figure>
+              </div>
+              <div class="client-block sponsor-lg wow fadeInRight" data-wow-delay="300ms">
+                <figure class="image-box">
+                  <img class="p-3" src="./images/logos/silver/primetravel_logo.png" alt="Primetravel" />
+                </figure>
+              </div>
+              <div class="client-block sponsor-lg wow fadeInRight" data-wow-delay="300ms">
+                <figure class="image-box">
+                  <img class="p-3" src="./images/logos/silver/welcomebeds_logo.png" alt="Welcomebeds" />
+                </figure>
+              </div>
+              <div class="client-block sponsor-lg wow fadeInRight" data-wow-delay="300ms">
+                <figure class="image-box">
+                  <img class="p-3" src="./images/logos/past_sponsors/zafiro_logo.png" alt="Zafiro" />
+                </figure>
+              </div>
+              <div class="client-block sponsor-lg wow fadeInRight" data-wow-delay="300ms">
+                <figure class="image-box">
+                  <img class="p-3" src="./images/logos/silver/tbo_logo.png" alt="TBO" />
+                </figure>
               </div>
             </div>
             <!-- MD -->
-            <div class="sponsors-outer">
-              <div class="row">
-                <!-- Client Block -->
-                <div class="client-block col-lg-3 col-md-6 col-sm-12 wow fadeInRight" data-bs-toggle="tooltip"
-                  data-bs-placement="top"
-                  title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts.
-                                                                                                  Contact us (events@travelgate.com) now for a Sponsorship Kit.">
-                  <figure class="image-box">
-                    <img class="p-2" src="images/logos/bronze/nord_beds.png" alt="Nord Beds" />
-                  </figure>
-                </div>
-                <!-- Client Block -->
-                <div class="client-block col-lg-3 col-md-6 col-sm-12 wow fadeInRight" data-bs-toggle="tooltip"
-                  data-bs-placement="top"
-                  title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts.
-                                                                                                                Contact us (events@travelgate.com) now for a Sponsorship Kit.">
-                  <figure class="image-box">
-                    <img class="p-2" src="images/logos/bronze/dts_logo.png" alt="DTS" />
-                  </figure>
-                </div>
-                <!-- Client Block -->
-                <div class="client-block col-lg-3 col-md-6 col-sm-12 wow fadeInRight" data-bs-toggle="tooltip"
-                  data-bs-placement="top"
-                  title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts.
-                                                                                                                              Contact us (events@travelgate.com) now for a Sponsorship Kit.">
-                  <figure class="image-box">
-                    <img class="p-2" src="images/logos/other_logos/roibos_logo.png" alt="Roibos" />
-                  </figure>
-                </div>
-                <!-- Client Block -->
-                <div class="client-block col-lg-3 col-md-6 col-sm-12 wow fadeInRight" data-bs-toggle="tooltip"
-                  data-bs-placement="top"
-                  title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts.
-                                                                                                                                            Contact us (events@travelgate.com) now for a Sponsorship Kit.">
-                  <figure class="image-box">
-                    <img class="p-2" src="images/logos/bronze/weh_logo.png" alt="Within Earth" />
-                  </figure>
-                </div>
-                <!-- Client Block -->
-                <div class="client-block col-lg-3 col-md-6 col-sm-12 wow fadeInRight" data-bs-toggle="tooltip"
-                  data-bs-placement="top"
-                  title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts.
-                                                                                                                                                          Contact us (events@travelgate.com) now for a Sponsorship Kit.">
-                  <figure class="image-box">
-                    <img class="p-2" src="images/logos/silver/paximum_logo.png" alt="Paximum" />
-                  </figure>
-                </div>
+            <div class="sponsors-outer sponsors-wrapper">
+              <div class="client-block sponsor-md wow fadeInRight" data-wow-delay="300ms" title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts.Contact us (events@travelgate.com) now for a Sponsorship Kit.">
+                <figure class="image-box">
+                  <img class="p-3" src="./images/logos/bronze/nord_beds.png" alt="NordBeds" />
+                </figure>
               </div>
-            </div>
-            <!-- SM -->
-            <!-- <div class="sponsors-outer">
-              <div class="row">
-
-                <div class="client-block col-lg-2 col-md-6 col-sm-12 wow fadeInRight" data-bs-toggle="tooltip"
-                  data-bs-placement="top"
-                  title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts.
-                                                                                                  Contact us (events@travelgate.com) now for a Sponsorship Kit.">
-                  <figure class="image-box">
-                    <img class="p-2" src="images/logos/bronze/nord_beds.png" alt="Nord Beds" />
-                  </figure>
-                </div>
-
+              <div class="client-block sponsor-md wow fadeInRight" data-wow-delay="300ms" title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts.Contact us (events@travelgate.com) now for a Sponsorship Kit.">
+                <figure class="image-box">
+                  <img class="p-3" src="./images/logos/bronze/dts_logo.png" alt="DTS" />
+                </figure>
               </div>
-            </div> -->
+              <div class="client-block sponsor-md wow fadeInRight" data-wow-delay="300ms" title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts.Contact us (events@travelgate.com) now for a Sponsorship Kit.">
+                <figure class="image-box">
+                  <img class="p-3" src="./images/logos/other_logos/roibos_logo.png" alt="Roibos" />
+                </figure>
+              </div>
+              <div class="client-block sponsor-md wow fadeInRight" data-wow-delay="300ms" title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts.Contact us (events@travelgate.com) now for a Sponsorship Kit.">
+                <figure class="image-box">
+                  <img class="p-3" src="./images/logos/bronze/weh_logo.png" alt="Within Earth" />
+                </figure>
+              </div>
+              <div class="client-block sponsor-md wow fadeInRight" data-wow-delay="300ms" title="Unbeatable brand visibility and a unique opportunity to showcase your company to a global audience of leading travel industry experts.Contact us (events@travelgate.com) now for a Sponsorship Kit.">
+                <figure class="image-box">
+                  <img class="p-3" src="./images/logos/silver/paximum_logo.png" alt="Paximum" />
+                </figure>
+              </div>
+          </div>
+
+
           </div>
         </div>
       </div>
@@ -706,11 +637,6 @@
         <h3 class="text-center">
           <a class="fs-1" href="mailto:events@travelgate.com">events@travelgate.com</a>
         </h3>
-        <!-- <div class="d-flex align-items-center justify-content-center position-relative">
-          <a href="javascript:void(0)" class="btn btn-primary rounded-1 px-4 py-3 disabled">Get your ticket here <i
-              class="fa-regular fa-angle-right ms-2"></i></a>
-          <img src="images/resource/coming_soon.png" class="coming_soon">
-        </div> -->
       </div>
     </section>
     <!-- Event email Pricing Section -->

@@ -11668,7 +11668,7 @@ Accordian Box
 
 .main-footer .footer-bottom .copyright-text {
   position: relative;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 .main-footer .footer-bottom .copyright-text p {
@@ -11697,7 +11697,7 @@ Accordian Box
 
 .main-footer .footer-bottom .footer-nav {
   position: relative;
-  padding: 20px 0;
+  padding: 15px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

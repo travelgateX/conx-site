@@ -401,7 +401,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 90px;
+    height: 70px;
 }
 .con-schedule.is-break .con-schedule__wrapper::after {
     display: none;   

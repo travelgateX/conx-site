@@ -1502,6 +1502,7 @@ hr {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+  width: 100%;
 }
 
 .contact-list-one li {
@@ -1542,12 +1543,12 @@ hr {
 }
 
 .contact-list-one li a:hover {
-  color: #ff7c00;
+  color: #ffae00;
 }
 
 .nav-toggler {
   position: relative;
-  color: #ff7c00;
+  color: #ffae00;
   font-size: 34px;
   margin-left: auto;
   -o-transition: all 0.2s ease-in-out;

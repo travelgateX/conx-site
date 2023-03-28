@@ -245,6 +245,9 @@ li {
 
 .attendee-list-style {
   columns: 4;
+  column-gap: 5%;
+  width: 100%;
+  padding: 0 30px;
 }
 @media (max-width: 1023px) {
   .attendee-list-style {
@@ -266,7 +269,7 @@ li {
 
 .attendee-list-style li {
   list-style: initial !important;
-  padding-right: 15px;
+  flex: auto;
 }
 
 /***

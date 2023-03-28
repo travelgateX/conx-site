@@ -25,7 +25,7 @@
 }
 
 .con-hero__wrapper {
-    flex-basis: 55%;
+    flex-basis: 60%;
     position: relative;
     background: #0c2340;
     display: flex;
@@ -79,7 +79,7 @@
 }
 
 .con-hero__title {
-    width: 60%;
+    width: 100%;
     display: block;
     margin: 0 0 30px 30px;
     padding: 0 30px;
@@ -93,23 +93,24 @@
     font-family: "Inter" !important;
 }
 .con-hero__features {
-    width: 60%;
+    width: 75%;
     margin: 0 0 0 60px;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     padding: 45px 0;
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
 }
+
 .con-hero__feature {
     display: flex;
     font-size: 16px;
     color: white;
-    flex-basis: 33%;
     gap: 10px;
 }
 .con-hero__feature i {
     color: #ffae00;
-    font-size: 30px;
+    font-size: 26px;
 }
 @media only screen and (max-width: 1023px) {
     .con-hero__features {
@@ -120,6 +121,20 @@
     }
     .con-hero__feature i {
         font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .con-hero__claim {
+        font-size: 24px;
+    }
+    .con-hero__title {
+        width: 90%;
+    }
+    .con-hero__features {
+        width: 80%;
+    }
+    .con-hero__title h2 {
+        font-size: 40px;
     }
 }
 /* con-hero mobile */

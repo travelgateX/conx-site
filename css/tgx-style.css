@@ -270,6 +270,7 @@ li {
 .attendee-list-style li {
   list-style: none !important;
   flex: auto;
+  font-weight: bold;
 }
 
 /***

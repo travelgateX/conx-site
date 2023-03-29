@@ -268,7 +268,7 @@ li {
 }
 
 .attendee-list-style li {
-  list-style: initial !important;
+  list-style: none !important;
   flex: auto;
 }
 

@@ -538,6 +538,7 @@
 }
 .sponsors-wrapper .sponsor-md {
     flex-basis: 18.8%;
+    min-height: 138px;
 }
 .sponsors-wrapper .sponsor-sm {
     flex-basis: 15%;

@@ -421,16 +421,27 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 90px;
+    height: 114px;
 }
 .con-schedule.is-break .con-schedule__wrapper::after {
     display: none;   
+}
+.con-schedule.is-break .con-schedule__info {
+    flex-direction: column;
+    align-items: start;
+    gap: 0;   
+}
+.con-schedule.is-coffee {
+    background-image: url('./../images/background/coffee_bg.svg');
 }
 .con-schedule.is-lunch {
     background-image: url('./../images/background/lunch_bg.svg');
 }
 .con-schedule.is-finger {
     background-image: url('./../images/background/finger_bg.svg');
+}
+.con-schedule.is-predinner {
+    background-image: url('./../images/background/predinner_bg.svg');
 }
 .con-schedule__wrapper {
     flex-basis: 80%;

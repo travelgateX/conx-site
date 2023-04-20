@@ -553,6 +553,7 @@
 }
 .sponsors-wrapper .sponsor-sm {
     flex-basis: 15%;
+    min-height: 126px;
 }
 
 @media only screen and (max-width: 1200px) {

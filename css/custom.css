@@ -413,6 +413,7 @@
     border: 1px solid #ebebeb;
     justify-content: space-between;
     height: 114px;
+    min-height: 114px;
     margin-bottom: 10px;
     overflow: hidden;
     position: relative;
@@ -499,6 +500,12 @@
     width: auto;
     max-width: unset;
 }
+
+.con-schedule__list {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;
+}
 @media only screen and (max-width: 1023px) {
     .con-schedule__wrapper {
         flex-flow: column;
@@ -511,6 +518,8 @@
 @media only screen and (max-width: 768px) {
     .con-schedule {
         margin-bottom: 20px;
+        height: auto;
+        max-height: 156px;
     }
     .con-schedule__wrapper {
         padding: 10px;

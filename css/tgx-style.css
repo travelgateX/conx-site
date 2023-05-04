@@ -6467,6 +6467,7 @@ a.ui-button:active,
 .speaker-block-two .designation {
   position: relative;
   font-size: 14px;
+  line-height: 0.9rem!important;
   color: #ffffff;
   padding: 5px;
 }

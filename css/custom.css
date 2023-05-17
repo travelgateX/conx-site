@@ -6,7 +6,7 @@
 }
 .con-hero__img {
     flex-basis: 45%;
-    background-image: url('../images/main-slider/hero_image_2.jpg');
+    background-image: url('../images/main-slider/52899453070_fce9fa238d_k.jpg');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -215,11 +215,20 @@
 .afterx-hero {
     display: flex;
     height: 600px;
-    background-image: url('../images/background/afterx_hero_banner2.png');
+    background-image: url('../images/main-slider/52899079921_c647ce87bf_k.jpg');
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center;
     background-size: cover;
     position: relative;
+}
+.afterx-hero::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(11, 89, 222, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 .afterx-hero .auto-container {
     display: flex;
@@ -257,6 +266,7 @@
     line-height: 1.2em;
     font-weight: 500;
     color: #282828;
+    z-index: 1;
 }
 .afterx-hero__features {
     width: 100%;
